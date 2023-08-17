@@ -1,0 +1,266 @@
+ADVANCED_ELECTRIC_DUST_FABRICATOR:
+  category: Machine
+  machine-name: '&6Advanced Electric Dust Fabricator'
+  machine-lore:
+  - '&73 in 1 - Auto Dust'
+  - '&4End-Game Machine'
+  block-type: FURNACE
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 256
+    energy-buffer: 3500
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: BLOCK_REINFORCED_ALLOY
+      amount: 1
+    '2':
+      type: NONE
+      id: REINFORCED_ALLOY_INGOT
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ELECTRIC_DUST_FABRICATOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: BLOCK_REINFORCED_ALLOY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: BLOCK_REINFORCED_ALLOY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 16
+        '2':
+          type: VANILLA
+          id: GRANITE
+          amount: 16
+        '3':
+          type: VANILLA
+          id: ANDESITE
+          amount: 16
+        '4':
+          type: VANILLA
+          id: DIORITE
+          amount: 16
+      output:
+        '1':
+          type: SLIMEFUN
+          id: COPPER_DUST
+          amount: 16
+    '2':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 16
+        '2':
+          type: VANILLA
+          id: GRANITE
+          amount: 16
+        '3':
+          type: VANILLA
+          id: ANDESITE
+          amount: 16
+        '4':
+          type: VANILLA
+          id: DIORITE
+          amount: 16
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_DUST
+          amount: 16
+    '3':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 16
+        '2':
+          type: VANILLA
+          id: GRANITE
+          amount: 16
+        '3':
+          type: VANILLA
+          id: ANDESITE
+          amount: 16
+        '4':
+          type: VANILLA
+          id: DIORITE
+          amount: 16
+      output:
+        '1':
+          type: SLIMEFUN
+          id: IRON_DUST
+          amount: 16
+    '4':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 16
+        '2':
+          type: VANILLA
+          id: GRANITE
+          amount: 16
+        '3':
+          type: VANILLA
+          id: ANDESITE
+          amount: 16
+        '4':
+          type: VANILLA
+          id: DIORITE
+          amount: 16
+      output:
+        '1':
+          type: SLIMEFUN
+          id: LEAD_DUST
+          amount: 16
+    '5':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 16
+        '2':
+          type: VANILLA
+          id: GRANITE
+          amount: 16
+        '3':
+          type: VANILLA
+          id: ANDESITE
+          amount: 16
+        '4':
+          type: VANILLA
+          id: DIORITE
+          amount: 16
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ALUMINUM_DUST
+          amount: 16
+    '6':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 16
+        '2':
+          type: VANILLA
+          id: GRANITE
+          amount: 16
+        '3':
+          type: VANILLA
+          id: ANDESITE
+          amount: 16
+        '4':
+          type: VANILLA
+          id: DIORITE
+          amount: 16
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ZINC_DUST
+          amount: 16
+    '7':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 16
+        '2':
+          type: VANILLA
+          id: GRANITE
+          amount: 16
+        '3':
+          type: VANILLA
+          id: ANDESITE
+          amount: 16
+        '4':
+          type: VANILLA
+          id: DIORITE
+          amount: 16
+      output:
+        '1':
+          type: SLIMEFUN
+          id: TIN_DUST
+          amount: 16
+    '8':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 16
+        '2':
+          type: VANILLA
+          id: GRANITE
+          amount: 16
+        '3':
+          type: VANILLA
+          id: ANDESITE
+          amount: 16
+        '4':
+          type: VANILLA
+          id: DIORITE
+          amount: 16
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SILVER_DUST
+          amount: 16
+    '9':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 16
+        '2':
+          type: VANILLA
+          id: GRANITE
+          amount: 16
+        '3':
+          type: VANILLA
+          id: ANDESITE
+          amount: 16
+        '4':
+          type: VANILLA
+          id: DIORITE
+          amount: 16
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MAGNESIUM_DUST
+          amount: 16

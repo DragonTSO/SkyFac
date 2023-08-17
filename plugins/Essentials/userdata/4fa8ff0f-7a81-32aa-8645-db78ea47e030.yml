@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.200.43.28
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1691665691074
+  login: 1691665678669
+money: '0'
+last-account-name: DragonDirta
+lastlocation:
+  world: 299af462-1081-46da-b41a-c39472342492
+  world-name: world
+  x: -256.0
+  y: 119.0
+  z: -208.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: b305afcd-d624-4a71-81b8-f339b933d7cc
+  world-name: SuperiorWorld
+  x: 602.2810764339691
+  y: 101.0
+  z: 601.7406012202428
+  yaw: -80.96591186523438
+  pitch: 57.74060821533203

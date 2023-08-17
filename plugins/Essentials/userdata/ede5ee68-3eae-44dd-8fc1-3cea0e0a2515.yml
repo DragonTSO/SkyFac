@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.200.43.28
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1690570564358
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1690616260218
+  login: 1690615689619
+money: '0'
+logoutlocation:
+  world: b305afcd-d624-4a71-81b8-f339b933d7cc
+  world-name: SuperiorWorld
+  x: 603.0785932823081
+  y: 100.0
+  z: -1.1626348930194814
+  yaw: -42.1147575378418
+  pitch: 25.190311431884766
+last-account-name: DragonDirt
+homes:
+  home:
+    world: 8e85f10e-a389-4f86-a0c2-5db70fa95658
+    world-name: Skyblock_Lobby
+    x: -31.45633411279064
+    y: 102.0
+    z: 836.4823903457612
+    yaw: -178.77110290527344
+    pitch: -2.69994854927063
+lastlocation:
+  world: 8e85f10e-a389-4f86-a0c2-5db70fa95658
+  world-name: Skyblock_Lobby
+  x: -39.87331706727194
+  y: 106.92470510661353
+  z: 802.9682578972448
+  yaw: 174.49600219726562
+  pitch: 28.298229217529297

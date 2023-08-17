@@ -1,0 +1,189 @@
+#READ THE WIKI BEFORE CREATING AN ITEM! https://github.com/NCBPFluffyBear/SlimeCustomizer/blob/master/README.md
+      # type: NONE
+      # id: N/A
+      # amount: 1
+##REIN BLOCK
+BLOCK_REINFORCED_ALLOY:
+  category: resouces
+  item-type: CUSTOM
+  item-name: "&b&lBLOCK_REINFORCED_ALLOY"
+  item-id: SKULLb40e988d763cf3dbde325e02b08e1233140b35c2dd514496a48a32520a2898c8
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: REINFORCED_ALLOY_INGOT
+      amount: 1
+      
+      
+##BLOCK_HARGENED_METAL
+BLOCK_HARDENED_METAL:
+  category: resouces
+  item-type: CUSTOM
+  item-name: "&b&lBlock Hardened Metal"
+  item-id: SKULL31c5c21c847d7b982d5f89fc858f53a5ac25caf442b9653e6ddbfa4fb28eaa67
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: HARDENED_METAL_INGOT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: HARDENED_METAL_INGOT
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: HARDENED_METAL_INGOT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: HARDENED_METAL_INGOT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: HARDENED_METAL_INGOT
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: HARDENED_METAL_INGOT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: HARDENED_METAL_INGOT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: HARDENED_METAL_INGOT
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: HARDENED_METAL_INGOT
+      amount: 1
+###
+HARDENED_PLATE:
+  category: resouces
+  item-type: CUSTOM
+  item-name: "&b&lHardened Plate"
+  item-id: MAP
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: COMPRESSOR
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: HARDENED_METAL_INGOT
+      amount: 8
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+# :
+  # category: resouces
+  # item-type: CUSTOM
+  # item-name: "&b&l"
+  # item-id: 
+  # item-amount: 1
+  # placeable: false
+  # crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  # crafting-recipe:
+    # 1:
+      # type: SLIMEFUN
+      # id: 
+      # amount: 1
+    # 2:
+      # type: SLIMEFUN
+      # id: 
+      # amount: 1
+    # 3:
+      # type: SLIMEFUN
+      # id: 
+      # amount: 1
+    # 4:
+      # type: SLIMEFUN
+      # id: 
+      # amount: 1
+    # 5:
+      # type: SLIMEFUN
+      # id: 
+      # amount: 1
+    # 6:
+      # type: SLIMEFUN
+      # id: 
+      # amount: 1
+    # 7:
+      # type: SLIMEFUN
+      # id: 
+      # amount: 1
+    # 8:
+      # type: SLIMEFUN
+      # id: 
+      # amount: 1
+    # 9:
+      # type: SLIMEFUN
+      # id: 
+      # amount: 1

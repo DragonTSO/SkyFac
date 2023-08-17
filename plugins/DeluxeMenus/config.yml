@@ -1,0 +1,799 @@
+# DeluxeMenus 1.13.7-Release main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: false
+check_updates: false
+gui_menus:
+  mainmenu:
+    menu_title: '&a&lMenu &f| Chính'
+    open_command:
+    - menu
+    - help
+    - start
+    size: 54
+    items:
+      Rank:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmMyYjExZmQzYzRiMjA3ODIwZjc3NmNiM2IyMDE3YTkzODkyODg5Njg2YWNmYjc1MjFjZjExZjhmOWI1ODM5MyJ9fX0=
+        data: 3
+        amount: 1
+        slot: 45
+        priority: 1
+        display_name: '&e&lRank!'
+        lore:
+        - '&7Bấm vào đây để mua Rank'
+        - '&7Ủng hộ máy chủ'
+        - ''
+        - '&e► &aChuột phải để bắt đầu!'
+        left_click_commands:
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[player] rank'
+        right_click_commands:
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[player] rank'
+      Shop:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDhkZTMzOWFmNjNhMjI5YzkyMzhkMDI3ZTQ3ZjUzZWViNTYxNDFhNDE5ZjUxYjM1YzMxZWExNDk0YjQzNWRkMyJ9fX0===
+        data: 3
+        amount: 1
+        slot: 51
+        priority: 1
+        display_name: '&e&lCửa hàng'
+        lore:
+        - '&7Bấm vào để để mở cửa hàng'
+        - '&7Mua bán các loại vật phẩm tại đây!'
+        - ' '
+        - '&e► &aChuột phải để xem chi tiết hơn!'
+        left_click_commands:
+        - '[player] cuahang'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] cuahang'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      PlayerInfo:
+        material: head-%player_name%
+        data: 3
+        amount: 1
+        slot: 53
+        priority: 1
+        display_name: '&e&lThông tin nhân vật &r&l%player_name%'
+        lore:
+        - ''
+        - '&6» &7Rank: &e%luckperms_prefix%'
+        - '&6» &7Tiền: &e%vault_eco_balance_fixed%'
+        - '&6» &7Xu: &e%opteco_points%'
+        - '&6» &7Thời gian: &f&l%server_time_hh:mm:ss% - %server_time_dd/MM/yyyy%'
+        - ''
+        - ''
+        left_click_commands:
+        - '[player] thongtin'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] thongtin'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      Bank:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ5NzRlYzE5ZDQwZWVmOTJiMmU0YWUzMmFjN2I4NjQ2ZjM0ODljNTA4ZjUwYjE2ZjM4MzUyOTZlMmFkYTIifX19=
+        data: 3
+        amount: 1
+        slot: 52
+        priority: 1
+        display_name: '&e&lNgân hàng'
+        lore:
+        - '&7Cất giữ [Tiền] cho đảo của bạn'
+        - ' '
+        - '&e► &aChuột phải để xem!'
+        left_click_commands:
+        - '[openguimenu] nganhang'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[openguimenu] nganhang'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      choden:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y3Y2RlZWZjNmQzN2ZlY2FiNjc2YzU4NGJmNjIwODMyYWFhYzg1Mzc1ZTlmY2JmZjI3MzcyNDkyZDY5ZiJ9fX0==
+        data: 3
+        amount: 1
+        slot: 50
+        priority: 1
+        display_name: '&e&lChợ đen'
+        lore:
+        - '&7Giao dịch giữa các người chơi'
+        - '&7Các vật phẩm quý hiếm!'
+        - ' '
+        - '&e► &aChuột phải để xem!'
+        left_click_commands:
+        - '[player] ah'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] ah'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      balo:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM1MWU1MDU5ODk4MzhlMjcyODdlN2FmYmM3Zjk3ZTc5NmNhYjVmMzU5OGE3NjE2MGMxMzFjOTQwZDBjNSJ9fX0===
+        data: 3
+        amount: 1
+        slot: 49
+        priority: 1
+        display_name: '&e&lBalo'
+        lore:
+        - '&7Bấm vào đây để mở balo của bạn'
+        - '&7Nơi lưu trữ an toàn!'
+        - ' '
+        - '&e► &aChuột phải để xem!'
+        left_click_commands:
+        - '[player] balo'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] balo'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      warp:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUzZjlkYjdiNDU3MzE3MWEyYjU4MzZlNjliYzZhNjMxNDUxNGZmZjViYzc5NzQzMzE5ZmQxOTFmNTM0NDQifX19
+        data: 3
+        amount: 1
+        slot: 48
+        priority: 1
+        display_name: '&e&lWarps'
+        lore:
+        - '&7Danh sách dịch chuyển'
+        - ' '
+        - '&e► &aChuột phải để xem chi tiết hơn!'
+        left_click_commands:
+        - '[openguimenu] warps'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[openguimenu] warps'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      '25':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNhNjljM2NhYTMxMzA0ZTk5NTIzMjhjNzJjZWUwYjU3YjJhMmJkNDZjZTljNWNiODhjMDdkMTI2NjI3N2Q2YSJ9fX0===
+        data: 3
+        amount: 1
+        slot: 47
+        priority: 1
+        display_name: '&e&lNhiệm vụ'
+        lore:
+        - '&7Những nhiệm vụ đầy thử thách'
+        - '&7đang chờ bạn'
+        - ' '
+        - '&e► &aChuột phải để xem chi tiết hơn!'
+        left_click_commands:
+        - '[player] quests'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] quests'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      kit:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5NmJlNzg4NmViN2RmNzU1MjVhMzYzZTVmNTQ5NjI2YzIxMzg4ZjBmZGE5ODhhNmU4YmY0ODdhNTMifX19==
+        data: 3
+        amount: 1
+        slot: 46
+        priority: 1
+        display_name: '&e&lKits'
+        lore:
+        - '&7Kit của máy chủ'
+        - '&7cùng xem nào!'
+        - ' '
+        - '&e► &aChuột phải để xem chi tiết hơn!'
+        left_click_commands:
+        - '[player] kit'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] kit'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      FAQ:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGQ3YzJlNzlmMDBjMDVjZmNlNTYzY2UzZGIzYTQ2NDYxZmM0OTMxOGEyZjMzNjU0ODFjNmMxZjhmZDNkYjM3YyJ9fX0=
+        data: 3
+        amount: 1
+        slot: 20
+        priority: 1
+        display_name: '&e&lFAQ ( Một số câu hỏi thường gặp )'
+        lore:
+        - ''
+        - '&c&l1. Mới vào máy chủ tôi cần phải làm gì ?'
+        - '&fHay bật /menu lên và khám phá sau đó sử dụng lệnh'
+        - '&c&l3. Tôi phát hiện bug tôi phải làm sao ?'
+        - '&fPM Fb admin để lấy quà'
+        - '&fDicsord : discord/mine24h ( Mine24h.com )'
+        - '&c&l4. Máy chủ có update thường xuyên không ?'
+        - '&fCâu trả lời là có vì đây là máy chủ Sur tất cả đồ và'
+        - '&fTính năng mới sẽ được update thường xuyên'
+        - '&c&l5. Tôi có ý tưởng cho máy chủ ?'
+        - '&fĐừng ngại ngùng mà hãy góp ý qua discord của server nhé'
+        - '&fDicsord : discord/mine24h ( Mine24h.com )'
+        - '&fHãy góp ý vào phần chat Góp ý để được staff check thường xuyên nhé'
+        - ' '
+        - '&c&lLuật lệ:'
+        - '&fHack, Bug , Cheat ( Jail hoặc Ban tuỳ trường hợp ) '
+        - '&fBug report lại cho admin => Khen thưởng + quà'
+        - '&fBug không report lại cho admin => &c&lBan vĩnh viễn !!!'
+        - ' '
+      event:
+        material: clock
+        nbt_int: CustomModelData:1
+        amount: 1
+        slot: 24
+        priority: 1
+        display_name: '&e&lSự kiện'
+        lore:
+        - ''
+        - '&c&l↘Nhiều sự kiện đang chờ đón bạn↙'
+        - '&e► &aBấm vào đây để mở menu!'
+        left_click_commands:
+        - '[player] soon'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] soon'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      tpatoggle:
+        material: lever
+        amount: 1
+        slot: 34
+        priority: 1
+        display_name: '&b&lTPA'
+        lore:
+        - ''
+        - '&e► &6&lChuột-Trái và Phải &8để &abật - tắt &8Tpa'
+        left_click_commands:
+        - '[player] tptoggle'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] tptoggle'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      '120':
+        material: black_stained_glass_pane
+        display_name: '&r '
+        data: 1
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        priority: 2
+  kits-menu:
+    menu_title: '&a&lMenu &f| Kit'
+    open_command:
+    - kit
+    - kits
+    size: 54
+    items:
+      Rank:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmMyYjExZmQzYzRiMjA3ODIwZjc3NmNiM2IyMDE3YTkzODkyODg5Njg2YWNmYjc1MjFjZjExZjhmOWI1ODM5MyJ9fX0=
+        data: 3
+        amount: 1
+        slot: 45
+        priority: 1
+        display_name: '&e&lRank!'
+        lore:
+        - '&7Bấm vào đây để mua Rank'
+        - '&7Ủng hộ máy chủ'
+        - ''
+        - '&e► &aChuột phải để bắt đầu!'
+        left_click_commands:
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[player] rank'
+        right_click_commands:
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[player] rank'
+      Shop:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDhkZTMzOWFmNjNhMjI5YzkyMzhkMDI3ZTQ3ZjUzZWViNTYxNDFhNDE5ZjUxYjM1YzMxZWExNDk0YjQzNWRkMyJ9fX0===
+        data: 3
+        amount: 1
+        slot: 51
+        priority: 1
+        display_name: '&e&lCửa hàng'
+        lore:
+        - '&7Bấm vào để để mở cửa hàng'
+        - '&7Mua bán các loại vật phẩm tại đây!'
+        - ' '
+        - '&e► &aChuột phải để xem chi tiết hơn!'
+        left_click_commands:
+        - '[player] cuahang'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] cuahang'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      PlayerInfo:
+        material: head-%player_name%
+        data: 3
+        amount: 1
+        slot: 53
+        priority: 1
+        display_name: '&e&lThông tin nhân vật &r&l%player_name%'
+        lore:
+        - ''
+        - '&6» &7Rank: &e%luckperms_prefix%'
+        - '&6» &7Tiền: &e%vault_eco_balance_fixed%'
+        - '&6» &7Xu: &e%opteco_points%'
+        - '&6» &7Thời gian: &f&l%server_time_hh:mm:ss% - %server_time_dd/MM/yyyy%'
+        - ''
+        left_click_commands:
+        - '[player] thongtin'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] thongtin'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      Bank:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ5NzRlYzE5ZDQwZWVmOTJiMmU0YWUzMmFjN2I4NjQ2ZjM0ODljNTA4ZjUwYjE2ZjM4MzUyOTZlMmFkYTIifX19=
+        data: 3
+        amount: 1
+        slot: 52
+        priority: 1
+        display_name: '&e&lNgân hàng'
+        lore:
+        - '&7Cất giữ [Tiền] cho đảo của bạn'
+        - ' '
+        - '&e► &aChuột phải để xem!'
+        left_click_commands:
+        - '[openguimenu] nganhang'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[openguimenu] nganhang'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      choden:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y3Y2RlZWZjNmQzN2ZlY2FiNjc2YzU4NGJmNjIwODMyYWFhYzg1Mzc1ZTlmY2JmZjI3MzcyNDkyZDY5ZiJ9fX0==
+        data: 3
+        amount: 1
+        slot: 50
+        priority: 1
+        display_name: '&e&lChợ đen'
+        lore:
+        - '&7Giao dịch giữa các người chơi'
+        - '&7Các vật phẩm quý hiếm!'
+        - ' '
+        - '&e► &aChuột phải để xem!'
+        left_click_commands:
+        - '[player] ah'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] ah'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      balo:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM1MWU1MDU5ODk4MzhlMjcyODdlN2FmYmM3Zjk3ZTc5NmNhYjVmMzU5OGE3NjE2MGMxMzFjOTQwZDBjNSJ9fX0===
+        data: 3
+        amount: 1
+        slot: 49
+        priority: 1
+        display_name: '&e&lBalo'
+        lore:
+        - '&7Bấm vào đây để mở balo của bạn'
+        - '&7Nơi lưu trữ an toàn!'
+        - ' '
+        - '&e► &aChuột phải để xem!'
+        left_click_commands:
+        - '[player] balo'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] balo'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      warp:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUzZjlkYjdiNDU3MzE3MWEyYjU4MzZlNjliYzZhNjMxNDUxNGZmZjViYzc5NzQzMzE5ZmQxOTFmNTM0NDQifX19
+        data: 3
+        amount: 1
+        slot: 48
+        priority: 1
+        display_name: '&e&lWarps'
+        lore:
+        - '&7Danh sách dịch chuyển'
+        - ' '
+        - '&e► &aChuột phải để xem chi tiết hơn!'
+        left_click_commands:
+        - '[openguimenu] warps'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[openguimenu] warps'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      '25':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNhNjljM2NhYTMxMzA0ZTk5NTIzMjhjNzJjZWUwYjU3YjJhMmJkNDZjZTljNWNiODhjMDdkMTI2NjI3N2Q2YSJ9fX0===
+        data: 3
+        amount: 1
+        slot: 47
+        priority: 1
+        display_name: '&e&lNhiệm vụ'
+        lore:
+        - '&7Những nhiệm vụ đầy thử thách'
+        - '&7đang chờ bạn'
+        - ' '
+        - '&e► &aChuột phải để xem chi tiết hơn!'
+        left_click_commands:
+        - '[player] quests'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] quests'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      kit:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5NmJlNzg4NmViN2RmNzU1MjVhMzYzZTVmNTQ5NjI2YzIxMzg4ZjBmZGE5ODhhNmU4YmY0ODdhNTMifX19==
+        data: 3
+        amount: 1
+        slot: 46
+        priority: 1
+        display_name: '&e&lKits'
+        lore:
+        - '&7Kit của máy chủ'
+        - '&7cùng xem nào!'
+        - ' '
+        - '&e► &aChuột phải để xem chi tiết hơn!'
+        left_click_commands:
+        - '[player] kit'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] kit'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      kit-exp:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkODg1YjMyYjBkZDJkNmI3ZjFiNTgyYTM0MTg2ZjhhNTM3M2M0NjU4OWEyNzM0MjMxMzJiNDQ4YjgwMzQ2MiJ9fX0=
+        slot: 20
+        priority: 1
+        display_name: '&a&lExp'
+        lore:
+        - ' '
+        - '&e32 Bình Exp'
+        - '&7Cooldown: &612h'
+        - ' '
+        - '&e► &aChuột phải để nhận!'
+        left_click_commands:
+        - '[player] kit exp'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] kit exp'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      kit-food:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTExM2Q1YmRlODM3NzcwOGVmZTEzOWYzMjI0NzYzMGFiNTEwNDBmZTlhZDk2N2I4NzU1M2UxOTI5MzliZTkwNSJ9fX0=
+        slot: 23
+        priority: 1
+        display_name: '&a&lFood'
+        lore:
+        - ' '
+        - '&f16 Apple'
+        - '&7Cooldown: &615p'
+        - ' '
+        - '&e► &aChuột phải để nhận!'
+        left_click_commands:
+        - '[player] kit food'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] kit food'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      '120':
+        material: black_stained_glass_pane
+        display_name: '&r '
+        data: 1
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        priority: 2
+  rank-menu:
+    menu_title: '&a&lMenu &f| Rank'
+    open_command:
+    - rank
+    - ranks
+    - rankup
+    - rankups
+    size: 54
+    items:
+      Rank:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmMyYjExZmQzYzRiMjA3ODIwZjc3NmNiM2IyMDE3YTkzODkyODg5Njg2YWNmYjc1MjFjZjExZjhmOWI1ODM5MyJ9fX0=
+        data: 3
+        amount: 1
+        slot: 45
+        priority: 1
+        display_name: '&e&lRank!'
+        lore:
+        - '&7Bấm vào đây để mua Rank'
+        - '&7Ủng hộ máy chủ'
+        - ''
+        - '&e► &aChuột phải để bắt đầu!'
+        left_click_commands:
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[player] rank'
+        right_click_commands:
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[player] rank'
+      Shop:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDhkZTMzOWFmNjNhMjI5YzkyMzhkMDI3ZTQ3ZjUzZWViNTYxNDFhNDE5ZjUxYjM1YzMxZWExNDk0YjQzNWRkMyJ9fX0===
+        data: 3
+        amount: 1
+        slot: 51
+        priority: 1
+        display_name: '&e&lCửa hàng'
+        lore:
+        - '&7Bấm vào để để mở cửa hàng'
+        - '&7Mua bán các loại vật phẩm tại đây!'
+        - ' '
+        - '&e► &aChuột phải để xem chi tiết hơn!'
+        left_click_commands:
+        - '[player] cuahang'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] cuahang'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      PlayerInfo:
+        material: head-%player_name%
+        data: 3
+        amount: 1
+        slot: 53
+        priority: 1
+        display_name: '&e&lThông tin nhân vật &r&l%player_name%'
+        lore:
+        - ''
+        - '&6» &7Rank: &e%luckperms_prefix%'
+        - '&6» &7Tiền: &e%vault_eco_balance_fixed%'
+        - '&6» &7Xu: &e%opteco_points%'
+        - '&6» &7Thời gian: &f&l%server_time_hh:mm:ss% - %server_time_dd/MM/yyyy%'
+        - ''
+        left_click_commands:
+        - '[player] thongtin'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] thongtin'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      Bank:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ5NzRlYzE5ZDQwZWVmOTJiMmU0YWUzMmFjN2I4NjQ2ZjM0ODljNTA4ZjUwYjE2ZjM4MzUyOTZlMmFkYTIifX19=
+        data: 3
+        amount: 1
+        slot: 52
+        priority: 1
+        display_name: '&e&lNgân hàng'
+        lore:
+        - '&7Cất giữ [Tiền] cho đảo của bạn'
+        - ' '
+        - '&e► &aChuột phải để xem!'
+        left_click_commands:
+        - '[openguimenu] nganhang'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[openguimenu] nganhang'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      choden:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y3Y2RlZWZjNmQzN2ZlY2FiNjc2YzU4NGJmNjIwODMyYWFhYzg1Mzc1ZTlmY2JmZjI3MzcyNDkyZDY5ZiJ9fX0==
+        data: 3
+        amount: 1
+        slot: 50
+        priority: 1
+        display_name: '&e&lChợ đen'
+        lore:
+        - '&7Giao dịch giữa các người chơi'
+        - '&7Các vật phẩm quý hiếm!'
+        - ' '
+        - '&e► &aChuột phải để xem!'
+        left_click_commands:
+        - '[player] ah'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] ah'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      balo:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM1MWU1MDU5ODk4MzhlMjcyODdlN2FmYmM3Zjk3ZTc5NmNhYjVmMzU5OGE3NjE2MGMxMzFjOTQwZDBjNSJ9fX0===
+        data: 3
+        amount: 1
+        slot: 49
+        priority: 1
+        display_name: '&e&lBalo'
+        lore:
+        - '&7Bấm vào đây để mở balo của bạn'
+        - '&7Nơi lưu trữ an toàn!'
+        - ' '
+        - '&e► &aChuột phải để xem!'
+        left_click_commands:
+        - '[player] balo'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] balo'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      warp:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUzZjlkYjdiNDU3MzE3MWEyYjU4MzZlNjliYzZhNjMxNDUxNGZmZjViYzc5NzQzMzE5ZmQxOTFmNTM0NDQifX19
+        data: 3
+        amount: 1
+        slot: 48
+        priority: 1
+        display_name: '&e&lWarps'
+        lore:
+        - '&7Danh sách dịch chuyển'
+        - ' '
+        - '&e► &aChuột phải để xem chi tiết hơn!'
+        left_click_commands:
+        - '[openguimenu] warps'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[openguimenu] warps'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      '25':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNhNjljM2NhYTMxMzA0ZTk5NTIzMjhjNzJjZWUwYjU3YjJhMmJkNDZjZTljNWNiODhjMDdkMTI2NjI3N2Q2YSJ9fX0===
+        data: 3
+        amount: 1
+        slot: 47
+        priority: 1
+        display_name: '&e&lNhiệm vụ'
+        lore:
+        - '&7Những nhiệm vụ đầy thử thách'
+        - '&7đang chờ bạn'
+        - ' '
+        - '&e► &aChuột phải để xem chi tiết hơn!'
+        left_click_commands:
+        - '[player] quests'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] quests'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      kit:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5NmJlNzg4NmViN2RmNzU1MjVhMzYzZTVmNTQ5NjI2YzIxMzg4ZjBmZGE5ODhhNmU4YmY0ODdhNTMifX19==
+        data: 3
+        amount: 1
+        slot: 46
+        priority: 1
+        display_name: '&e&lKits'
+        lore:
+        - '&7Kit của máy chủ'
+        - '&7cùng xem nào!'
+        - ' '
+        - '&e► &aChuột phải để xem chi tiết hơn!'
+        left_click_commands:
+        - '[player] kit'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[player] kit'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      iron:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQ5NWYyMWE3NzQ3MjcxYmU4MzU4MjlmOTRjZWJjZWQ1OTRlNDZhNmM2NTQwOWRkNmI0MGJmYjM1NTYxYWQ4ZCJ9fX0=
+        data: 3
+        amount: 1
+        slot: 19
+        priority: 1
+        update: true
+        display_name: '&7&l&nIron'
+        lore:
+        - '&b'
+        - '&e► &aĐã nhận!'
+        left_click_commands:
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      gold:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNjNWE3ZTk5Y2QzMzg0MDVjMWMxM2UyOWQ5ODY3ZGI1ZTZhMmVhMzE2N2Y3MGY3OGM3NzQxYjUyMzU5ZmJmYiJ9fX0=
+        data: 3
+        amount: 1
+        slot: 20
+        priority: 2
+        left_click_requirement:
+          requirements:
+            anything_here:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: '50'
+          deny_commands:
+          - '[message] &6Rank &8> &7Bạn cần &c50 xu &7để mua rank &egold.'
+        right_click_requirement:
+          requirements:
+            anything_here:
+              type: '>='
+              input: '%playerpoints_points%'
+              output: '50'
+          deny_commands:
+          - '[message] &6Rank &8> &7Bạn cần &c50 xu &7để mua rank &egold.'
+        display_name: '&e&l&nRank GOLD'
+        lore:
+        - '&6★ &eQUYỀN LỢI:'
+        - '&8   » &7Thêm balo'
+        - '&8   » &7Sử dụng lệnh /nick'
+        - '&8   » &7Sử dụng lệnh /ec'
+        - '&8   » &7Sử dụng lệnh /craft'
+        - '&8   » &7+ 10k Money'
+        - '&6★ &eGIÁ:'
+        - '&8   » &e&l650k Money'
+        - ' '
+        - '&e► &aBấm vào để mua!'
+        left_click_commands:
+        - '[console] lp user %player_name% parent set gold'
+        - '[console] lp user %player_name% permission set rank.gold'
+        - '[console] lp user %player_name% permission set rank.gold.close'
+        - '[console] eco take %player_name% 650000'
+        - '[console] eco give %player_name% 10000'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[close]'
+        - '[console] bc &a%player_name% &fđã mua rank &eGOLD&f.'
+        right_click_commands:
+        - '[console] lp user %player_name% parent set gold'
+        - '[console] lp user %player_name% permission set rank.gold'
+        - '[console] lp user %player_name% permission set rank.gold.close'
+        - '[console] eco take %player_name% 650000'
+        - '[console] eco give %player_name% 10000'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        - '[close]'
+        - '[console] bc &a%player_name% &fđã mua rank &eGOLD&f.'
+      gold-unlock:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNjNWE3ZTk5Y2QzMzg0MDVjMWMxM2UyOWQ5ODY3ZGI1ZTZhMmVhMzE2N2Y3MGY3OGM3NzQxYjUyMzU5ZmJmYiJ9fX0=
+        data: 3
+        amount: 1
+        slot: 20
+        priority: 1
+        view_requirement:
+          requirements:
+            anything_here:
+              type: has permission
+              permission: rank.gold.close
+        display_name: '&e&l&nRank GOLD'
+        lore:
+        - '&6★ &eQUYỀN LỢI:'
+        - '&8   » &7Thêm balo'
+        - '&8   » &7Sử dụng lệnh /nick'
+        - '&8   » &7Sử dụng lệnh /ec'
+        - '&8   » &7Sử dụng lệnh /craft'
+        - '&8   » &7+ 10k Money'
+        - '&6★ &eGIÁ:'
+        - '&8   » &e&l650k Money'
+        - ' '
+        - '&e► &aĐã nhận!'
+        left_click_commands:
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+        right_click_commands:
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      '120':
+        material: black_stained_glass_pane
+        display_name: '&r '
+        data: 1
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        priority: 2

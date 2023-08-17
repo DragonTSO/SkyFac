@@ -1,0 +1,16 @@
+resouces:
+  type: normal
+  category-name: '&6&lMine24H &7- &e&lresouce'
+  category-item: SKULLeyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjI0N2EzMjk4MzgwNWUxYjgxZTNhOGE0OGQxYjJjOGY5MGZmY2FjOWQ1YmEwZWI2NDlkNDczZWE1ODc1ODg1MiJ9fX0=
+  parents:
+  - slimefun:basic_machines
+solar:
+  type: normal
+  category-name: '&6&lMine24H &7- &e&lSolar'
+  category-item: LIME_GLAZED_TERRACOTTA
+  parents:
+  - slimefun:basic_machines
+slime_customizer:
+  category-name: '&6&lMine24H &7- &e&lMachine'
+  category-item: SKULL4b57a4c68d1d2c5de978ea6de4db91ef387ca6c37966bb8e7c8826f937e6c3
+  type: normal
