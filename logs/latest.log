@@ -1,0 +1,399 @@
+[18:07:11] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:07:13] [ServerMain/INFO]: Loaded 7 recipes
+[18:07:13] [Server thread/INFO]: Starting minecraft server version 1.20
+[18:07:13] [Server thread/INFO]: Loading properties
+[18:07:13] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[18:07:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:07:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:07:13] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[18:07:13] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[18:07:13] [Server thread/INFO]: Default game type: SURVIVAL
+[18:07:13] [Server thread/INFO]: Generating keypair
+[18:07:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:07:13] [Server thread/INFO]: Using default channel type
+[18:07:13] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[18:07:13] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[18:07:14] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loading 1 libraries... please wait
+[18:07:14] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library D:\minecraft sv 1.19.4\SkyBlockAdder\libraries\org\openjdk\nashorn\nashorn-core\15.4\nashorn-core-15.4.jar
+[18:07:14] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library D:\minecraft sv 1.19.4\SkyBlockAdder\libraries\org\ow2\asm\asm\7.3.1\asm-7.3.1.jar
+[18:07:14] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library D:\minecraft sv 1.19.4\SkyBlockAdder\libraries\org\ow2\asm\asm-commons\7.3.1\asm-commons-7.3.1.jar
+[18:07:14] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library D:\minecraft sv 1.19.4\SkyBlockAdder\libraries\org\ow2\asm\asm-analysis\7.3.1\asm-analysis-7.3.1.jar
+[18:07:14] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library D:\minecraft sv 1.19.4\SkyBlockAdder\libraries\org\ow2\asm\asm-tree\7.3.1\asm-tree-7.3.1.jar
+[18:07:14] [Server thread/INFO]: [SpigotLibraryLoader] [SuperiorSkyblock2] Loaded library D:\minecraft sv 1.19.4\SkyBlockAdder\libraries\org\ow2\asm\asm-util\7.3.1\asm-util-7.3.1.jar
+[18:07:18] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[18:07:21] [Server thread/WARN]: Legacy plugin PlayerVaults v3.6.0-bSNAPSHOT does not specify an api-version.
+[18:07:21] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.7.0
+[18:07:21] [Server thread/INFO]: [ViaVersion] ViaVersion 4.7.0 is now loaded. Registering protocol transformers and injecting...
+[18:07:21] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:07:21] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.98
+[18:07:21] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[18:07:22] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[18:07:22] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.0.0
+[18:07:22] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.20.0) has not yet been tested! Proceed with caution.
+[18:07:23] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.3
+[18:07:23] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.0
+[18:07:23] [Server thread/INFO]: [SuperiorSkyblock2] Loading server plugin SuperiorSkyblock2 v2023.2
+[18:07:23] [Server thread/INFO]: [Slimefun] Loading server plugin Slimefun vDEV - 1093 (git 8bcf0735)
+[18:07:23] [Server thread/INFO]: [FluffyMachines] Loading server plugin FluffyMachines vDEV - 130 (git 01c839cc)
+[18:07:23] [Server thread/INFO]: [Supreme] Loading server plugin Supreme vDEV - 29 (git f9e70053)
+[18:07:23] [Server thread/INFO]: [Networks] Loading server plugin Networks vDEV - 49 (git 4c64a5ca)
+[18:07:23] [Server thread/INFO]: [SlimeCustomizer] Loading server plugin SlimeCustomizer vDEV - 30 (git 6f0bf930)
+[18:07:23] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.0.3
+[18:07:23] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.3.4
+[18:07:23] [Server thread/INFO]: [PlayerVaults] Loading server plugin PlayerVaults v3.6.0-bSNAPSHOT
+[18:07:23] [Server thread/INFO]: [PlayerPoints] Loading server plugin PlayerPoints v3.2.6
+[18:07:23] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
+[18:07:23] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.0
+[18:07:23] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.0
+[18:07:23] [Server thread/INFO]: [EMCTech] Loading server plugin EMCTech vDEV - 5 (git c61222fb)
+[18:07:23] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.13.7-Release
+[18:07:23] [Server thread/WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version!
+[18:07:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:07:23] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.98
+[18:07:24] [Server thread/INFO]:         __    
+[18:07:24] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.98
+[18:07:24] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:07:24] [Server thread/INFO]: 
+[18:07:24] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:07:24] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:07:25] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:07:25] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:07:25] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1765ms)
+[18:07:25] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[18:07:25] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[18:07:25] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:07:25] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[18:07:25] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[18:07:25] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
+[18:07:25] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.4
+[18:07:25] [Server thread/WARN]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[18:07:25] [Server thread/WARN]: It seems like you're running on paper.
+[18:07:25] [Server thread/WARN]: This may cause issues.
+[18:07:25] [Server thread/WARN]: If you encounter any issues, please join my dicord: https://discord.gg/dBhfCzdZxq
+[18:07:25] [Server thread/WARN]: Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[18:07:25] [Server thread/WARN]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[18:07:25] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.2.6
+[18:07:25] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.2.5
+[18:07:25] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
+[18:07:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:07:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:07:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:07:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:07:25] [Server thread/INFO]: Preparing level "world"
+[18:07:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:07:26] [Server thread/INFO]: Time elapsed: 442 ms
+[18:07:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:07:26] [Server thread/INFO]: Time elapsed: 40 ms
+[18:07:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:07:26] [Server thread/INFO]: Time elapsed: 35 ms
+[18:07:26] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.7.0
+[18:07:26] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20 (763)
+[18:07:26] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[18:07:26] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
+[18:07:26] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
+[18:07:26] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://jo0001.github.io/ViaSetup
+[18:07:26] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[18:07:26] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
+[18:07:27] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[18:07:27] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0
+[18:07:27] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[18:07:27] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[18:07:27] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[18:07:28] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[18:07:28] [Server thread/INFO]: [Essentials] Using locale en_US
+[18:07:28] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:07:28] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:07:28] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[18:07:28] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[18:07:28] [Server thread/INFO]: [SuperiorSkyblock2] Enabling SuperiorSkyblock2 v2023.2
+[18:07:28] [Server thread/INFO]: Preparing start region for dimension minecraft:superiorworld
+[18:07:29] [Server thread/INFO]: Time elapsed: 558 ms
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Enabling the module bank...
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Finished enabling the module bank (Took 9ms)
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Enabling the module missions...
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission miner_1
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission miner_2
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission miner_3
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission miner_4
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission miner_5
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission slayer_1
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission slayer_2
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission slayer_3
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission slayer_4
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission farmer_1
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission farmer_2
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission farmer_3
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission farmer_4
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission farmer_5
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission fisherman_1
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission fisherman_2
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission fisherman_3
+[18:07:29] [Server thread/WARN]: Plugin 'SuperiorSkyblock2' is creating timing 'Plugin: SuperiorSkyblock2 v2023.2 Event: DynamicRegisteredListener::IslandSchematicPasteEvent(IslandSchematicPasteEvent)' - this is deprecated behavior, please report it to the authors: Ome_R
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission explorer_1
+[18:07:29] [Server thread/WARN]: Plugin 'SuperiorSkyblock2' is creating timing 'Plugin: SuperiorSkyblock2 v2023.2 Event: DynamicRegisteredListener::IslandSchematicPasteEvent(IslandSchematicPasteEvent)' - this is deprecated behavior, please report it to the authors: Ome_R
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Registered mission explorer_2
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Finished enabling the module missions (Took 531ms)
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Enabling the module generators...
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Finished enabling the module generators (Took 20ms)
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Enabling the module upgrades...
+[18:07:29] [Server thread/INFO]: [SuperiorSkyblock2] Finished enabling the module upgrades (Took 20ms)
+[18:07:30] [Server thread/INFO]: [SuperiorSkyblock2] Loading messages started...
+[18:07:30] [Server thread/INFO]: [SuperiorSkyblock2]  - Found 698 messages in the language files.
+[18:07:30] [Server thread/INFO]: [SuperiorSkyblock2] Loading messages done (Took 321ms)
+[18:07:30] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic desert.schematic (DefaultSchematicParser)
+[18:07:30] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic desert_nether.schematic (DefaultSchematicParser)
+[18:07:30] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic desert_the_end.schematic (DefaultSchematicParser)
+[18:07:30] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic mycel.schematic (DefaultSchematicParser)
+[18:07:31] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic mycel_nether.schematic (DefaultSchematicParser)
+[18:07:31] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic mycel_the_end.schematic (DefaultSchematicParser)
+[18:07:31] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic normal.schematic (DefaultSchematicParser)
+[18:07:31] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic normal_nether.schematic (DefaultSchematicParser)
+[18:07:31] [Server thread/INFO]: [SuperiorSkyblock2] Successfully loaded schematic normal_the_end.schematic (DefaultSchematicParser)
+[18:07:31] [Server thread/WARN]: [SuperiorSkyblock2] [biomes.yml] Biome 'WOODED_HILLS' is not valid, skipping...
+[18:07:31] [Server thread/INFO]: [SuperiorSkyblock2] Trying to connect to local database (SQLite)...
+[18:07:31] [Server thread/INFO]: [SuperiorSkyblock2] Successfully established connection with local database!
+[18:07:31] [Server thread/INFO]: [SuperiorSkyblock2] Creating a backup file...
+[18:07:31] [Server thread/INFO]: [SuperiorSkyblock2] Backup done!
+[18:07:31] [Server thread/INFO]: [SuperiorSkyblock2] Starting to load players...
+[18:07:32] [Server thread/INFO]: [SuperiorSkyblock2] Finished loading 2 players (Took 19ms)
+[18:07:32] [Server thread/INFO]: [SuperiorSkyblock2] Starting to load islands...
+[18:07:32] [Server thread/INFO]: [SuperiorSkyblock2] Finished loading 2 islands (Took 100ms)
+[18:07:32] [Server thread/INFO]: [SuperiorSkyblock2] Starting to load grid...
+[18:07:32] [Server thread/INFO]: [SuperiorSkyblock2] Finished grid!
+[18:07:32] [Server thread/INFO]: [SuperiorSkyblock2] Starting to load stacked blocks...
+[18:07:32] [Server thread/INFO]: [SuperiorSkyblock2] Finished stacked blocks!
+[18:07:32] [Server thread/INFO]: [Slimefun] Enabling Slimefun vDEV - 1093 (git 8bcf0735)
+[18:07:32] [Server thread/INFO]: [Slimefun] Paper was detected! Performance optimizations have been applied.
+[18:07:32] [Server thread/INFO]: [Slimefun] Creating directories...
+[18:07:32] [Server thread/INFO]: [Slimefun] Loading language files...
+[18:07:32] [Server thread/INFO]: [Slimefun] Loaded language "en"
+[18:07:32] [Server thread/INFO]: [Slimefun] Available languages: en, de, fr, it, es, ru, pl, uk, sv, nl, da, cs, ro, bg, pt, pt-BR, hu, lv, sk, vi, id, zh-CN, zh-TW, ja, ko, he, ar, tr, fa, th, tl
+[18:07:32] [Server thread/INFO]: [Slimefun] Starting Auto-Updater...
+[18:07:32] [Server thread/INFO]: [Slimefun] Loading GEO-Resources...
+[18:07:32] [Server thread/INFO]: [Slimefun] Loading Tags...
+[18:07:32] [Server thread/INFO]: [Slimefun] Loading items...
+[18:07:33] [Server thread/INFO]: [Slimefun] Loading researches...
+[18:07:33] [Server thread/INFO]: [Slimefun] Loading Wiki pages...
+[18:07:33] [Server thread/INFO]: [Slimefun] Registering listeners...
+[18:07:33] [Server thread/INFO]: [Slimefun] Loading Third-Party plugin integrations...
+[18:07:33] [Server thread/INFO]: [Slimefun] Hooked into Plugin: PlaceholderAPI v2.11.3
+[18:07:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: slimefun [DEV - 1093 (git 8bcf0735)]
+[18:07:33] [Server thread/INFO]: [Slimefun] Slimefun has finished loading in 1.37s
+[18:07:33] [Server thread/INFO]: [FluffyMachines] Enabling FluffyMachines vDEV - 130 (git 01c839cc)
+[18:07:33] [Server thread/INFO]: [FluffyMachines] §aHi there! Want to share your server with the Slimefun community?
+[18:07:33] [Server thread/INFO]: [FluffyMachines] §aJoin the official Slimefun Discord server at https://discord.gg/slimefun
+[18:07:33] [Server thread/INFO]: [Supreme] Enabling Supreme vDEV - 29 (git f9e70053)
+[18:07:33] [Server thread/INFO]: [Supreme] ########################################
+[18:07:33] [Server thread/INFO]: [Supreme]       Supreme 2.0  - By RelativoBR      
+[18:07:33] [Server thread/INFO]: [Supreme] ########################################
+[18:07:33] [Server thread/INFO]: [Supreme] Auto Update: enable
+[18:07:33] [Server thread/INFO]: [Supreme] Loaded language Supreme: en-US
+[18:07:33] [Server thread/INFO]: [Supreme] Legacy SupremeExpansion IDs: disable
+[18:07:34] [Server thread/INFO]: [Networks] Enabling Networks vDEV - 49 (git 4c64a5ca)
+[18:07:34] [Server thread/INFO]: [Networks] ########################################
+[18:07:34] [Server thread/INFO]: [Networks]          Networks - By Sefiraat         
+[18:07:34] [Server thread/INFO]: [Networks] ########################################
+[18:07:34] [Server thread/INFO]: [SlimeCustomizer] Enabling SlimeCustomizer vDEV - 30 (git 6f0bf930)
+[18:07:34] [Server thread/INFO]: [SlimeCustomizer] Setting up custom stuff...
+[18:07:34] [Server thread/INFO]: [SlimeCustomizer] Category resouces (normal) has been registered!
+[18:07:34] [Server thread/INFO]: [SlimeCustomizer] Category solar (normal) has been registered!
+[18:07:34] [Server thread/INFO]: [SlimeCustomizer] Category slime_customizer (normal) has been registered!
+[18:07:34] [Server thread/INFO]: [SlimeCustomizer] Item BLOCK_REINFORCED_ALLOY has been registered!
+[18:07:34] [Server thread/INFO]: [SlimeCustomizer] Item BLOCK_HARDENED_METAL has been registered!
+[18:07:34] [Server thread/INFO]: [SlimeCustomizer] Item HARDENED_PLATE has been registered!
+[18:07:34] [Server thread/WARN]: [SlimeCustomizer] Your machines.yml file still contains the example machine! Did you forget to set up the plugin?
+[18:07:34] [Server thread/INFO]: [SlimeCustomizer] Machine EXAMPLE_MACHINE has been registered!
+[18:07:34] [Server thread/WARN]: [SlimeCustomizer] Your generators.yml file still contains the example generator! Did you forget to set up the plugin?
+[18:07:34] [Server thread/INFO]: [SlimeCustomizer] Generator EXAMPLE_GENERATOR has been registered!
+[18:07:34] [Server thread/WARN]: [SlimeCustomizer] Your solar-generators.yml file still contains the example solar generator! Did you forget to set up the plugin?
+[18:07:34] [Server thread/INFO]: [SlimeCustomizer] Generator EXAMPLE_SOLAR_GENERATOR has been registered!
+[18:07:34] [Server thread/WARN]: [SlimeCustomizer] Your mob-drops.yml file still contains the example mob drop! Did you forget to set up the plugin?
+[18:07:34] [Server thread/INFO]: [SlimeCustomizer] Mob drop EXAMPLE_DROP has been registered!
+[18:07:34] [Server thread/INFO]: [TAB] Enabling TAB v4.0.3
+[18:07:34] [Server thread/INFO]: [TAB] Server version: 1.20 (v1_20_R1)
+[18:07:34] [Server thread/INFO]: [TAB] Loaded NMS hook in 29ms
+[18:07:34] [Server thread/INFO]: [TAB] Enabled in 174ms
+[18:07:34] [Server thread/INFO]: [PlayerVaults] Enabling PlayerVaults v3.6.0-bSNAPSHOT*
+[18:07:34] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[18:07:34] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[18:07:34] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[18:07:34] [Server thread/INFO]: Preparing start region for dimension minecraft:skyblock_lobby
+[18:07:35] [Server thread/INFO]: Time elapsed: 584 ms
+[18:07:35] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[18:07:35] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[18:07:35] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[18:07:35] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.0
+[18:07:35] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[18:07:35] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.0
+[18:07:35] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[18:07:35] [Server thread/INFO]: [EMCTech] Enabling EMCTech vDEV - 5 (git c61222fb)
+[18:07:35] [Server thread/INFO]: [EMCTech] ########################################
+[18:07:35] [Server thread/INFO]: [EMCTech]            EMCTech by Sefiraat          
+[18:07:35] [Server thread/INFO]: [EMCTech] ########################################
+[18:07:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: emctech [1.0.0]
+[18:07:35] [Server thread/INFO]: [EMCTech] [ACF] Enabled Asynchronous Tab Completion Support!
+[18:07:38] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.7-Release
+[18:07:38] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[18:07:38] [Server thread/INFO]: [DeluxeMenus] 3 GUI menus loaded!
+[18:07:38] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault!
+[18:07:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: deluxemenus [1.13.7-Release]
+[18:07:38] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[18:07:38] [Server thread/INFO]: Running delayed init tasks
+[18:07:38] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
+[18:07:38] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[18:07:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playerpoints [3.2.6]
+[18:07:38] [Craft Scheduler Thread - 2 - PlayerVaults/INFO]: [PlayerVaults] We didn't find an update!
+[18:07:38] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[18:07:38] [Craft Scheduler Thread - 14 - Vault/INFO]: [Vault] Checking for Updates ... 
+[18:07:38] [Craft Scheduler Thread - 14 - Vault/INFO]: [Vault] No new version available
+[18:07:38] [Server thread/INFO]: [SuperiorSkyblock2] Using LuckPerms as a permissions provider.
+[18:07:38] [Server thread/INFO]: [SuperiorSkyblock2] Hooked into Essentials for support of vanish status of players.
+[18:07:38] [Server thread/INFO]: [SuperiorSkyblock2] Hooked into Essentials for support of afk status of players.
+[18:07:38] [Server thread/INFO]: [SuperiorSkyblock2] Using Vault as an economy provider.
+[18:07:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: superior [2023.2]
+[18:07:38] [Server thread/INFO]: [SuperiorSkyblock2] Using PlaceholderAPI for placeholders support.
+[18:07:38] [Server thread/INFO]: [SuperiorSkyblock2] Detected PaperSpigot - Using async chunk-loading support with PaperMC.
+[18:07:38] [Server thread/INFO]: [Slimefun] Now running MetricsModule build #29
+[18:07:38] [Server thread/INFO]: [Slimefun] with a total of 19/19 chart(s)!
+[18:07:38] [Server thread/INFO]: [Slimefun] Metrics build #29 started.
+[18:07:38] [Server thread/INFO]: [Slimefun] Collecting Snapshots of all Recipes...
+[18:07:38] [Server thread/INFO]: [Slimefun] Found 1,174 Recipes!
+[18:07:38] [Craft Scheduler Thread - 12 - EMCTech/INFO]: [EMCTech] EMCTech is already up to date!
+[18:07:38] [Craft Scheduler Thread - 10 - Supreme/INFO]: [Supreme] Supreme is already up to date!
+[18:07:38] [Server thread/INFO]: 
+[18:07:38] [Server thread/INFO]: ######################### - Slimefun vDEV - 1093 (git 8bcf0735) - #########################
+[18:07:38] [Server thread/INFO]: 
+[18:07:38] [Server thread/INFO]: Successfully loaded 1225 Items and 258 Researches
+[18:07:38] [Server thread/INFO]: ( 555 Items from Slimefun, 670 Items from 5 Addons )
+[18:07:38] [Server thread/INFO]: 
+[18:07:38] [Server thread/INFO]: Slimefun is an Open-Source project that is kept alive by a large community.
+[18:07:38] [Server thread/INFO]: Consider helping us maintain this project by contributing on GitHub!
+[18:07:38] [Server thread/INFO]: 
+[18:07:38] [Server thread/INFO]:  - Source Code:  https://github.com/Slimefun/Slimefun4
+[18:07:38] [Server thread/INFO]:  - Wiki:         https://github.com/Slimefun/Slimefun4/wiki
+[18:07:38] [Server thread/INFO]:  - Addons:       https://github.com/Slimefun/Slimefun4/wiki/Addons
+[18:07:38] [Server thread/INFO]:  - Bug Reports:  https://github.com/Slimefun/Slimefun4/issues
+[18:07:38] [Server thread/INFO]:  - Discord:      https://discord.gg/slimefun
+[18:07:38] [Server thread/INFO]: 
+[18:07:38] [Craft Scheduler Thread - 7 - FluffyMachines/INFO]: [FluffyMachines] FluffyMachines is already up to date!
+[18:07:38] [Craft Scheduler Thread - 4 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.20.1.
+[18:07:38] [Craft Scheduler Thread - 4 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
+[18:07:39] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world"
+[18:07:39] [Server thread/INFO]: [Slimefun] This may take a long time...
+[18:07:39] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[18:07:39] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world"
+[18:07:39] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_nether"
+[18:07:39] [Server thread/INFO]: [Slimefun] This may take a long time...
+[18:07:39] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[18:07:39] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_nether"
+[18:07:39] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_the_end"
+[18:07:39] [Server thread/INFO]: [Slimefun] This may take a long time...
+[18:07:39] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[18:07:39] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_the_end"
+[18:07:39] [Server thread/INFO]: [Slimefun] Loading Blocks for World "SuperiorWorld"
+[18:07:39] [Server thread/INFO]: [Slimefun] This may take a long time...
+[18:07:39] [Server thread/INFO]: [Slimefun] Ignoring duplicate block @ 601, 100, 1 (SOLAR_GENERATOR_4 -> ETC_NETWORK_MATERIALIZER)
+[18:07:39] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 4ms)
+[18:07:39] [Server thread/INFO]: [Slimefun] Loaded a total of 16 Blocks for World "SuperiorWorld"
+[18:07:39] [Server thread/INFO]: [Slimefun] Avg: 0.25ms/Block
+[18:07:39] [Server thread/INFO]: [Slimefun] Loading Blocks for World "Skyblock_Lobby"
+[18:07:39] [Server thread/INFO]: [Slimefun] This may take a long time...
+[18:07:39] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[18:07:39] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "Skyblock_Lobby"
+[18:07:39] [Server thread/INFO]: [dough: protection] Loading Protection Modules...
+[18:07:39] [Server thread/INFO]: [dough: protection] This may happen more than once.
+[18:07:39] [Server thread/INFO]: [PlayerVaults] ** Vaults have already been converted to UUIDs. If this is incorrect, shutdown your server and rename the plugins\PlayerVaults\uuidvaults directory.
+[18:07:39] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[18:07:39] [Server thread/INFO]: [EMCTech] EMCTech saving data.
+[18:07:39] [Server thread/INFO]: Done (25.621s)! For help, type "help"
+[18:07:39] [Server thread/INFO]: Timings Reset
+[18:07:39] [Craft Scheduler Thread - 6 - Networks/INFO]: [Networks] Networks is already up to date!
+[18:07:39] [Craft Scheduler Thread - 11 - SlimeCustomizer/INFO]: [SlimeCustomizer] SlimeCustomizer is already up to date!
+[18:07:39] [Server thread/INFO]: [dough: protection] Loaded Protection Module "SuperiorSkyblock2 v2023.2"
+[18:07:39] [Craft Scheduler Thread - 5 - Slimefun/INFO]: [Slimefun] Slimefun is already up to date!
+[18:07:55] [User Authenticator #0/INFO]: UUID of player DragonDirta is 4fa8ff0f-7a81-32aa-8645-db78ea47e030
+[18:07:58] [Server thread/INFO]: DragonDirta joined the game
+[18:07:58] [Server thread/INFO]: DragonDirta[/26.200.43.28:57579] logged in with entity id 190 at ([SuperiorWorld]602.2810764339691, 101.0, 601.7406012202428)
+[18:08:11] [Server thread/INFO]: DragonDirta lost connection: Disconnected
+[18:08:11] [Server thread/INFO]: DragonDirta left the game
+[18:08:11] [Craft Scheduler Thread - 5 - Slimefun/ERROR]: [dough: skins] Exception while requesting skin: https://api.mojang.com/users/profiles/minecraft/fuckyhey
+[18:08:11] [Craft Scheduler Thread - 11 - Slimefun/WARN]: [Slimefun] Attempted to refresh skin cache, got this response: ExecutionException: java.io.FileNotFoundException: https://api.mojang.com/users/profiles/minecraft/fuckyhey
+[18:08:11] [Craft Scheduler Thread - 11 - Slimefun/WARN]: [Slimefun] This usually means mojang.com is temporarily down or started to rate-limit this connection, nothing to worry about!
+[18:08:13] [Server thread/INFO]: Stopping the server
+[18:08:13] [Server thread/INFO]: Stopping server
+[18:08:13] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.13.7-Release
+[18:08:13] [Server thread/INFO]: [EMCTech] Disabling EMCTech vDEV - 5 (git c61222fb)
+[18:08:13] [Server thread/INFO]: [EMCTech] EMCTech saving data.
+[18:08:13] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.0
+[18:08:13] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.20.0
+[18:08:13] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[18:08:13] [Server thread/INFO]: [PlayerPoints] Disabling PlayerPoints v3.2.6
+[18:08:13] [Server thread/INFO]: [PlayerVaults] Disabling PlayerVaults v3.6.0-bSNAPSHOT
+[18:08:13] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.3.4
+[18:08:13] [Server thread/INFO]: [TAB] Disabling TAB v4.0.3
+[18:08:13] [Server thread/INFO]: [TAB] Disabled in 7ms
+[18:08:13] [Server thread/INFO]: [SlimeCustomizer] Disabling SlimeCustomizer vDEV - 30 (git 6f0bf930)
+[18:08:13] [Server thread/INFO]: [Networks] Disabling Networks vDEV - 49 (git 4c64a5ca)
+[18:08:13] [Server thread/INFO]: [Supreme] Disabling Supreme vDEV - 29 (git f9e70053)
+[18:08:13] [Server thread/INFO]: [FluffyMachines] Disabling FluffyMachines vDEV - 130 (git 01c839cc)
+[18:08:13] [Server thread/INFO]: [Slimefun] Disabling Slimefun vDEV - 1093 (git 8bcf0735)
+[18:08:13] [Server thread/INFO]: [Slimefun] Saving block data for world "SuperiorWorld" (5 change(s) queued)
+[18:08:13] [Server thread/INFO]: [Slimefun] Backed up Slimefun data to: 2023-08-10-18-08.zip
+[18:08:13] [Server thread/INFO]: [SuperiorSkyblock2] Disabling SuperiorSkyblock2 v2023.2
+[18:08:13] [Server thread/INFO]: [SuperiorSkyblock2] Disabling the module bank...
+[18:08:13] [Server thread/INFO]: [SuperiorSkyblock2] Disabling the module missions...
+[18:08:13] [Server thread/INFO]: [SuperiorSkyblock2] Disabling the module generators...
+[18:08:13] [Server thread/INFO]: [SuperiorSkyblock2] Disabling the module upgrades...
+[18:08:13] [Server thread/INFO]: [SuperiorSkyblock2] Shutting down calculation task...
+[18:08:13] [Server thread/INFO]: [SuperiorSkyblock2] Shutting down executor
+[18:08:13] [Server thread/INFO]: [SuperiorSkyblock2] Shutting down database executor
+[18:08:13] [Server thread/INFO]: [SuperiorSkyblock2] Closing database. This may hang the server. Do not shut it down, or data may get lost.
+[18:08:13] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.0
+[18:08:13] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[18:08:13] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.3
+[18:08:13] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0
+[18:08:13] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[18:08:13] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.98
+[18:08:13] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[18:08:13] [Server thread/INFO]: [LuckPerms] Closing storage...
+[18:08:13] [Server thread/INFO]: [LuckPerms] Goodbye!
+[18:08:13] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.7.0
+[18:08:13] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[18:08:13] [Server thread/INFO]: Saving players
+[18:08:13] [Server thread/INFO]: Saving worlds
+[18:08:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:08:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:08:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:08:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:08:14] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 1.29s
+[18:08:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:08:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:08:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:08:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:08:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:08:15] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.76s
+[18:08:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:08:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:08:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:08:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:08:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:08:15] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.15s
+[18:08:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:08:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SuperiorWorld]'/minecraft:superiorworld
+[18:08:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'SuperiorWorld'
+[18:08:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'SuperiorWorld'
+[18:08:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'SuperiorWorld'
+[18:08:15] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'SuperiorWorld' in 0.15s
+[18:08:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (SuperiorWorld): All chunks are saved
+[18:08:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Skyblock_Lobby]'/minecraft:skyblock_lobby
+[18:08:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Skyblock_Lobby'
+[18:08:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Skyblock_Lobby'
+[18:08:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Skyblock_Lobby'
+[18:08:16] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'Skyblock_Lobby' in 0.37s
+[18:08:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (Skyblock_Lobby): All chunks are saved
+[18:08:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:08:16] [Server thread/INFO]: Flushing Chunk IO
+[18:08:16] [Server thread/INFO]: Closing Thread Pool
+[18:08:16] [Server thread/INFO]: Closing Server
