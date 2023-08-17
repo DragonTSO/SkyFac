@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "fc965a68-a365-31aa-b531-51173cf7715b",
+    "name": "dra",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "ede5ee68-3eae-44dd-8fc1-3cea0e0a2515",
+    "name": "DragonDirt",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "c969ed92-dcb2-30d9-9c6e-707695dd3e7f",
+    "name": "DragonDirt",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "4fa8ff0f-7a81-32aa-8645-db78ea47e030",
+    "name": "DragonDirta",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

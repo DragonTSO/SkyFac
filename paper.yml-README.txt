@@ -1,0 +1,5 @@
+The global and world default configuration files have moved to D:\minecraft sv 1.19.4\SkyBlockAdder\config
+and the world-specific configuration file has been moved inside
+the respective world folder.
+
+See https://docs.papermc.io/paper/configuration for more information.
