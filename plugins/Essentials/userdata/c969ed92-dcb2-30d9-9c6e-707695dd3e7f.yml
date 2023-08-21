@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1692656529604
+  lastteleport: 1692658898621
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1692657137485
-  login: 1692656306078
+  logout: 1692658908692
+  login: 1692658037254
   kits:
     exp: 1691406092905
     food: 1691406199007
@@ -27,15 +27,15 @@ lastlocation:
   world: b305afcd-d624-4a71-81b8-f339b933d7cc
   world-name: SuperiorWorld
   x: 0.5
-  y: 100.0
+  y: 100.5
   z: 0.5
-  yaw: 1.6500004529953003
-  pitch: 81.89991760253906
+  yaw: 2.100006103515625
+  pitch: 77.39987182617188
 logoutlocation:
   world: 8e85f10e-a389-4f86-a0c2-5db70fa95658
   world-name: Skyblock_Lobby
-  x: -31.681914507954165
-  y: 101.0
-  z: 822.0869236779971
-  yaw: 123.0304946899414
-  pitch: 42.29989242553711
+  x: -31.483837331373945
+  y: 101.5
+  z: 831.8733393922394
+  yaw: 179.7289581298828
+  pitch: 3.7499499320983887
