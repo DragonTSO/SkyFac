@@ -7,3 +7,6 @@ slimefun:
     enabled: true
   salt:
     enabled: true
+infinityexpansion:
+  ender_essence:
+    enabled: true
