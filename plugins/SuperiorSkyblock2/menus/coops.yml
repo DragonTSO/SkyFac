@@ -26,7 +26,7 @@ items:
     type: PLAYER_HEAD
     name: '&e{0}'
     lore:
-      - '&eRole: &7{1}'
+      - '&eChức vụ: &7{1}'
   '%':
     type: PAPER
     name: '{0}Previous Page'

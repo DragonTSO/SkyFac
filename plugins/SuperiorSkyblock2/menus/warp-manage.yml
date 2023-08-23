@@ -31,7 +31,7 @@ items:
     lore:
       - '&f '
       - '&f '
-      - '&7&o(( &f&oClick &7&oto rename the warp. ))'
+      - '&7&o(( &f&oClick &7&ođổi tên warps))'
   '~':
     type: STONE
     lore:
@@ -48,11 +48,11 @@ items:
     lore:
       - '&f '
       - '&f '
-      - '&7&o(( &f&oClick &7&oto update the warp location. ))'
+      - '&7&o(( &f&oClick &7&ocập nhật vị trí. ))'
   '%':
     type: FEATHER
     name: '&6Private Warp'
     lore:
       - '&f '
       - '&f '
-      - '&7&o(( &f&oClick &7&oto toggle warp to the public. ))'
+      - '&7&o(( &f&oClick &7&ochuyển công khai và riêng tư ))'

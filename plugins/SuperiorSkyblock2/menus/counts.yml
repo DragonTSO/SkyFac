@@ -26,8 +26,8 @@ items:
     type: STONE
     name: '&e{0}'
     lore:
-      - '&6&l* &e&lQuantity &fx{1}'
-      - '&6&l* &e&lWorth: &f${2}'
+      - '&6&l* &e&lSố lượng &fx{1}'
+      - '&6&l* &e&lĐáng giá: &f${2}'
       - '&6&l* &e&lLevel: &f${3}'
   '%':
     type: PAPER

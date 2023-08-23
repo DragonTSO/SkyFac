@@ -12,22 +12,9 @@ enabled: true
 # A tutorial about configuring missions can be found here:
 # https://wiki.bg-software.com/superiorskyblock/missions
 categories:
+  basicslimefun:
+    name: 'basicslimefun'
+    slot: 22
   miner:
     name: 'Miner'
     slot: 20
-
-  slayer:
-    name: 'Slayer'
-    slot: 21
-
-  farmer:
-    name: 'Farmer'
-    slot: 22
-
-  fisherman:
-    name: 'Fisherman'
-    slot: 23
-
-  explorer:
-    name: 'Explorer'
-    slot: 24

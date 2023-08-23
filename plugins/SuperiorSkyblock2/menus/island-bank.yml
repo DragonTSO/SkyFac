@@ -20,51 +20,51 @@ logs: '~'
 items:
   '!':
     type: LIME_STAINED_GLASS_PANE
-    name: '&aDeposit Half Money'
+    name: '&aGửi một nửa số tiền'
     lore:
-      - '&7Deposit half of your money into the bank.'
+      - '&7Gửi một nửa số tiền của bạn vào ngân hàng của đảo.'
     bank-action:
       deposit: 50.0
   '#':
     type: LIME_STAINED_GLASS_PANE
-    name: '&aDeposit Money'
+    name: '&aGửi tiền'
     lore:
-      - '&7Deposit money into the bank.'
+      - '&7Gửi số tiền bạn muốn vào ngân hàng của đảo.'
     bank-action:
       deposit: 0.0
   '$':
     type: LIME_STAINED_GLASS_PANE
-    name: '&aDeposit All Money'
+    name: '&aGửi tất cả tiền'
     lore:
-      - '&7Deposit all of your money into the bank.'
+      - '&7Gửi tất cả tiền vào ngân hàng của đảo.'
     bank-action:
       deposit: 100.0
   '%':
     type: RED_STAINED_GLASS_PANE
-    name: '&aWithdraw Half Money'
+    name: '&aRút môt nửa'
     lore:
-      - '&7Withdraw half of the money from the bank.'
+      - '&7Sẽ rút một nửa số tiền từ ngân hàng của đảo của bạn.'
     bank-action:
       withdraw: 50.0
   '^':
     type: RED_STAINED_GLASS_PANE
-    name: '&aWithdraw Money'
+    name: '&aRút tiền'
     lore:
-      - '&7Withdraw money from the bank.'
+      - '&7Rút số tiền theo ý muốn của bạn.'
     bank-action:
       withdraw: 0.0
   '&':
     type: RED_STAINED_GLASS_PANE
-    name: '&aWithdraw All Money'
+    name: '&aRút tất cả tiền'
     lore:
-      - '&7Withdraw all of the money from the bank.'
+      - '&7Rút tất cả tiền của đảo'
     bank-action:
       withdraw: 100.0
   '*':
     type: PAPER
     name: '&6Balance'
     lore:
-      - '&7Your bank currently has $%superior_island_bank_format%'
+      - '&7Đảo của bạn có &a$%superior_island_bank_format%'
   '=':
     type: EMERALD_BLOCK
     name: '&f '
@@ -73,7 +73,7 @@ items:
     name: '&f '
   '~':
     type: EXPERIENCE_BOTTLE
-    name: '&6Transaction Logs'
+    name: '&6Lịch sử rút tiền'
 
 sounds:
   '!':

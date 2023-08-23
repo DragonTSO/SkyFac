@@ -24,7 +24,7 @@ items:
     type: LEATHER_CHESTPLATE
     name: '&eMember'
     lore:
-      - '&7Click to set player''s role to member.'
+      - '&7Click để đặt vai trò của người chơi thành thành viên.'
     flags:
       - HIDE_ATTRIBUTES
   '%':
@@ -32,7 +32,7 @@ items:
     type: GOLDEN_CHESTPLATE
     name: '&eModerator'
     lore:
-      - '&7Click to set player''s role to moderator.'
+      - '&7Click để đặt vai trò của người chơi thành moderator.'
     flags:
       - HIDE_ATTRIBUTES
   '&':
@@ -40,7 +40,7 @@ items:
     type: IRON_CHESTPLATE
     name: '&eAdmin'
     lore:
-      - '&7Click to set player''s role to admin.'
+      - '&7Click để đặt vai trò của người chơi thành admin.'
     flags:
       - HIDE_ATTRIBUTES
   '*':
@@ -48,7 +48,7 @@ items:
     type: DIAMOND_CHESTPLATE
     name: '&eLeader'
     lore:
-      - '&7Click to transfer leadership to player.'
+      - '&7Click để đặt vai trò của người chơi thành player.'
     flags:
       - HIDE_ATTRIBUTES
 

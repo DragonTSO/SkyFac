@@ -1,4 +1,4 @@
-enable-researching: true
+enable-researching: false
 slimefun:
   walking_sticks:
     cost: 1

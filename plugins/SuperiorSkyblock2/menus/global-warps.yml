@@ -30,8 +30,8 @@ items:
     type: PLAYER_HEAD
     name: '&e{0}''s Island'
     lore:
-      - '&7Click to see all warps of this island.'
-      - '&8>> &7This island has {2} warps.'
+      - '&7Click để xem tất cả các warps  của đảo.'
+      - '&8>> &7Đảo này có {2} warps.'
   '%':
     type: PAPER
     name: '{0}Previous Page'

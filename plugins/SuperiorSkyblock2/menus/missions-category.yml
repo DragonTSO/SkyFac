@@ -5,12 +5,15 @@
 ##                                                  ##
 ######################################################
 
-title: '&l{0} Missions'
+title: 'Missions'
 previous-menu: true
 
 pattern:
   - '# # # # # # # # #'
-  - '# # @ @ @ @ @ # #'
+  - '# @ @ # # # # # #'
+  - '# # # # # # # # #'
+  - '# # # # # # # # #'
+  - '# # # # # # # # #'
   - '# # # # # # # # #'
 
 slots: '@'
@@ -23,7 +26,7 @@ next-page: '*'
 sort-by-completion: false
 
 # Should completed missions not be displayed in the menu?
-remove-completed: false
+remove-completed: true
 
 items:
   '#':

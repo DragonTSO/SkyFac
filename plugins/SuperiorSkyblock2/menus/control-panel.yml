@@ -22,70 +22,71 @@ visitors: '-'
 items:
   '!':
     type: OAK_SIGN
-    name: '&eTeleport'
+    name: '&eVề đảo'
     lore:
-      - '&7Teleport back to your island.'
+      - '&7Teleport về đảo của bạn.'
   '@':
     type: REPEATER
     name: '&eIsland Settings'
     lore:
-      - '&7Manage settings regarding your island.'
+      - '&7Mở cài đặt đảo của bạn'
   '$':
     type: ENDER_PEARL
     name: '&eIsland Permissions'
     lore:
-      - '&7Manage permissions in your island.'
+      - '&7Cài đặt các Permissions trong đảo của bạn'
   '%':
     type: GRASS_BLOCK
     name: '&eIsland Biomes'
     lore:
-      - '&7Change the biome of your island.'
+      - '&7Đổi biome cho đảo bạn.'
   '_':
     type: EMERALD
     name: '&eIsland Bank'
     lore:
-      - '&7Open the bank of your island.'
+      - '&7Ngân hàng của đảo.'
   '^':
     type: GOLD_INGOT
-    name: '&eIsland Upgrades'
+    name: '&eNâng cấp đảo'
     lore:
-      - '&7Upgrade your island statistics!'
+      - '&7Nâng cấp bao gồm: '
+      - '&7Quặng, hopper, tốc độ phát tiển cây, tốc độ spawner, size, mob drop, thành viên, xe mỏ!'
   '&':
     type: BEACON
-    name: '&eTop Islands'
+    name: '&eTop đảo'
     lore:
-      - '&7Check which island is the best on the server!'
+      - '&7Xem top 9 đảo của máy chủ!'
   '*':
     type: PAPER
-    name: '&eIsland Missions'
+    name: '&eNhiệm vụ island'
     lore:
-      - '&7Complete missions and get rewarded!'
+      - '&7Hoàn thành nhiệm vụ của đảo để nhận các phần thưởng hấp dẫn!'
   '1':
     type: STONE_BRICKS
-    name: '&eIsland Counts'
+    name: '&eSố lượng block của đảo'
     lore:
-      - '&7See all the blocks on your island!'
+      - '&7Kiểm tra số lượng block của đảo mình!'
   '~':
     type: BARRIER
-    name: '&eIsland Disband'
+    name: '&eXóa Đảo'
     lore:
-      - '&7Disband your island.'
-      - '&cThis action cannot be restored!'
+      - '&7Bạn có thể xóa đảo của bạn.'
+      - '&cLưu ý:&7bạn sẽ mất hết tài nguyên trên đảo.'
   '=':
     type: CHEST
     name: '&eIsland Chest'
     lore:
-      - '&7Open the community chest of the island.'
+      - '&7Rương riêng của đảo bạn.'
   '-':
     type: SKELETON_SKULL
-    name: '&eIsland Visitors'
+    name: '&eDu khách'
     lore:
-      - '&7Check all the visitors of the island.'
+      - '&7Kiểm tra xem ai đã qua đảo của mình.'
   '+':
     type: PLAYER_HEAD
-    name: '&eIsland Members'
+    name: '&eThành viên trong đảo'
     lore:
-      - '&7Manage the members of the island.'
+      - '&7Quản lý thành viên trong đảo của bạn một cách dễ dàng'
   '2':
     type: BLACK_STAINED_GLASS_PANE
     name: '&f'

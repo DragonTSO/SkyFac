@@ -30,38 +30,38 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: HOPPER
-        name: '&d&lHopper Increase &a(Available)'
+        name: '&d&lHopper Increase &a(&A✔)'
         lore:
           - '&7'
           - '&dNext Level: &e2'
           - '&7'
-          - '&7Purchasing the hopper upgrade'
-          - '&7will increase your island''s'
-          - '&7max hoppers limit.'
+          - '&7Mua bản nâng cấp Hopper'
+          - '&7sẽ tăng giới hạn phễu'
+          - '&7cho hòn đảo của bạn.'
           - '&7'
-          - '&dAmount: &f16x Hoppers'
-          - '&dPrice: &f$1,000,000'
+          - '&dSố lượng: &f16x Hoppers'
+          - '&dGiá: &f$1,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: HOPPER
-        name: '&d&lHopper Increase &c(Unavailable)'
+        name: '&d&lHopper Increase &c(&c✘)'
         lore:
           - '&7'
           - '&dNext Level: &e2'
           - '&7'
-          - '&7Purchasing the hopper upgrade'
-          - '&7will increase your island''s'
-          - '&7max hoppers limit.'
+          - '&7Mua bản nâng cấp Hopper'
+          - '&7sẽ tăng giới hạn phễu'
+          - '&7cho hòn đảo của bạn.'
           - '&7'
-          - '&dAmount: &f16x Hoppers'
-          - '&dPrice: &f$1,000,000'
+          - '&dSố lượng: &f16x Hoppers'
+          - '&dGiá: &f$1,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '2':
       has-next-level:
         sound:
@@ -69,38 +69,38 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: HOPPER
-        name: '&d&lHopper Increase &a(Available)'
+        name: '&d&lHopper Increase &a(&A✔)'
         lore:
           - '&7'
           - '&dNext Level: &e3'
           - '&7'
-          - '&7Purchasing the hopper upgrade'
-          - '&7will increase your island''s'
-          - '&7max hoppers limit.'
+          - '&7Mua bản nâng cấp Hopper'
+          - '&7sẽ tăng giới hạn phễu'
+          - '&7cho hòn đảo của bạn.'
           - '&7'
-          - '&dAmount: &f32x Hoppers'
-          - '&dPrice: &f$3,000,000'
+          - '&dSố Lương: &f32x Hoppers'
+          - '&dGiá: &f$3,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: HOPPER
-        name: '&d&lHopper Increase &c(Unavailable)'
+        name: '&d&lHopper Increase &c(&c✘)'
         lore:
           - '&7'
           - '&dNext Level: &e3'
           - '&7'
-          - '&7Purchasing the hopper upgrade'
-          - '&7will increase your island''s'
-          - '&7max hoppers limit.'
+          - '&7Mua bản nâng cấp Hopper'
+          - '&7sẽ tăng giới hạn phễu'
+          - '&7cho hòn đảo của bạn.'
           - '&7'
-          - '&dAmount: &f32x Hoppers'
-          - '&dPrice: &f$3,000,000'
+          - '&dSố Lương: &f32x Hoppers'
+          - '&dGiá: &f$3,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '3':
       has-next-level:
         sound:
@@ -108,59 +108,57 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: HOPPER
-        name: '&d&lHopper Increase &a(Available)'
+        name: '&d&lHopper Increase &a(&A✔)'
         lore:
           - '&7'
           - '&dNext Level: &e4'
           - '&7'
-          - '&7Purchasing the hopper upgrade'
-          - '&7will increase your island''s'
-          - '&7max hoppers limit.'
+          - '&7Mua bản nâng cấp Hopper'
+          - '&7sẽ tăng giới hạn phễu'
+          - '&7cho hòn đảo của bạn.'
           - '&7'
-          - '&dAmount: &f64x Hoppers'
-          - '&dPrice: &f$9,000,000'
+          - '&dSố Lương: &f64x Hoppers'
+          - '&dGiá: &f$9,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: HOPPER
-        name: '&d&lHopper Increase &c(Unavailable)'
+        name: '&d&lHopper Increase &c(&c✘)'
         lore:
           - '&7'
           - '&dNext Level: &e2'
           - '&7'
-          - '&7Purchasing the hopper upgrade'
-          - '&7will increase your island''s'
-          - '&7max hoppers limit.'
+          - '&7Mua bản nâng cấp Hopper'
+          - '&7sẽ tăng giới hạn phễu'
+          - '&7cho hòn đảo của bạn.'
           - '&7'
-          - '&dAmount: &f64x Hoppers'
-          - '&dPrice: &f$9,000,000'
+          - '&dSố Lương: &f64x Hoppers'
+          - '&dGiá: &f$9,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '4':
       has-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
-        type: HOPPER
+        type: BARRIER
         name: '&c&lMAX LEVEL'
         lore:
-          - '&7You have reached the maxmimum'
-          - '&7level of the hoppers limit!'
+          - '&7Bạn đã đạt max cấp độ'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
-        type: HOPPER
+        type: BARRIER
         name: '&c&lMAX LEVEL'
         lore:
-          - '&7You have reached the maxmimum'
-          - '&7level of the hoppers limit!'
+          - '&7Bạn đã đạt max cấp độ'
   crop-growth:
     item: '#'
     '1':
@@ -170,38 +168,36 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: DIAMOND_HOE
-        name: '&e&lCrop Growth &a(Available)'
+        name: '&e&lCrop Growth &a(&A✔)'
         lore:
           - '&7'
           - '&eNext Level: 2'
           - '&7'
-          - '&7Purchasing the growth upgrade'
-          - '&7gives all crops within your island'
-          - '&7increased growth speed.'
+          - '&7Nâng cấp tốc độ phát triển'
+          - '&7cây trồng trong đảo của bạn.'
           - '&7'
-          - '&eGrowth: &fx2 Speed'
-          - '&ePrice: &f$100,000'
+          - '&eTốc độ phát triển: &fx2 Speed'
+          - '&eGiá: &f$100,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: DIAMOND_HOE
-        name: '&e&lCrop Growth &c(Unavailable)'
+        name: '&e&lCrop Growth &c(&c✘)'
         lore:
           - '&7'
           - '&eNext Level: 2'
           - '&7'
-          - '&7Purchasing the growth upgrade'
-          - '&7gives all crops within your island'
-          - '&7increased growth speed.'
+          - '&7Nâng cấp tốc độ phát triển'
+          - '&7cây trồng trong đảo của bạn.'
           - '&7'
-          - '&eGrowth: &fx2 Speed'
-          - '&ePrice: &f$100,000'
+          - '&eTốc độ phát triển: &fx2 Speed'
+          - '&eGiá: &f$100,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '2':
       has-next-level:
         sound:
@@ -209,38 +205,36 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: DIAMOND_HOE
-        name: '&e&lCrop Growth &a(Available)'
+        name: '&e&lCrop Growth &a(&A✔)'
         lore:
           - '&7'
           - '&eNext Level: 3'
           - '&7'
-          - '&7Purchasing the growth upgrade'
-          - '&7gives all crops within your island'
-          - '&7increased growth speed.'
+          - '&7Nâng cấp tốc độ phát triển'
+          - '&7cây trồng trong đảo của bạn.'
           - '&7'
-          - '&eGrowth: &fx3 Speed'
-          - '&ePrice: &f$500,000'
+          - '&eTốc độ phát triển: &fx3 Speed'
+          - '&eGiá: &f$500,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: DIAMOND_HOE
-        name: '&e&lCrop Growth &c(Unavailable)'
+        name: '&e&lCrop Growth &c(&c✘)'
         lore:
           - '&7'
           - '&eNext Level: 3'
           - '&7'
-          - '&7Purchasing the growth upgrade'
-          - '&7gives all crops within your island'
-          - '&7increased growth speed.'
+          - '&7Nâng cấp tốc độ phát triển'
+          - '&7cây trồng trong đảo của bạn.'
           - '&7'
-          - '&eGrowth: &fx3 Speed'
-          - '&ePrice: &f$500,000'
+          - '&eTốc độ phát triển: &fx3 Speed'
+          - '&eGiá: &f$500,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '3':
       has-next-level:
         sound:
@@ -248,59 +242,55 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: DIAMOND_HOE
-        name: '&e&lCrop Growth &a(Available)'
+        name: '&e&lCrop Growth &a(&A✔)'
         lore:
           - '&7'
           - '&eNext Level: 4'
           - '&7'
-          - '&7Purchasing the growth upgrade'
-          - '&7gives all crops within your island'
-          - '&7increased growth speed.'
+          - '&7Nâng cấp tốc độ phát triển'
+          - '&7cây trồng trong đảo của bạn.'
           - '&7'
-          - '&eGrowth: &fx4 Speed'
-          - '&ePrice: &f$1,000,000'
+          - '&eTốc độ phát triển: &fx4 Speed'
+          - '&eGiá: &f$1,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: DIAMOND_HOE
-        name: '&e&lCrop Growth &c(Unavailable)'
+        name: '&e&lCrop Growth &c(&c✘)'
         lore:
           - '&7'
           - '&eNext Level: 4'
           - '&7'
-          - '&7Purchasing the growth upgrade'
-          - '&7gives all crops within your island'
-          - '&7increased growth speed.'
+          - '&7Nâng cấp tốc độ phát triển'
+          - '&7cây trồng trong đảo của bạn.'
           - '&7'
-          - '&eGrowth: &fx4 Speed'
-          - '&ePrice: &f$1,000,000'
+          - '&eTốc độ phát triển: &fx4 Speed'
+          - '&eGiá: &f$1,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '4':
       has-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
-        type: DIAMOND_HOE
+        type: BARRIER
         name: '&c&lMAX LEVEL'
         lore:
-          - '&7You have reached the maxmimum'
-          - '&7level of the crop growth!'
+          - '&7Bạn đã đạt max cấp độ'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
-        type: DIAMOND_HOE
+        type: BARRIER
         name: '&c&lMAX LEVEL'
         lore:
-          - '&7You have reached the maxmimum'
-          - '&7level of the crop growth!'
+          - '&7Bạn đã đạt max cấp độ'
   spawner-rates:
     item: '^'
     '1':
@@ -310,38 +300,36 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: SPAWNER
-        name: '&b&lSpawner Boost &a(Available)'
+        name: '&b&lSpawner Boost &a(&A✔)'
         lore:
           - '&7'
           - '&bNext Level: &e2'
           - '&7'
-          - '&7Purchasing the spawner upgrade'
-          - '&7gives all spawners within your island'
-          - '&7increased spawn speed.'
+          - '&7Nâng cấp tốc độ tạo ra quái vật'
+          - '&7spawner trong đảo của bạn'
           - '&7'
           - '&bBoost: &fx2 Speed'
-          - '&bPrice: &f$500,000'
+          - '&bGiá: &f$500,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: SPAWNER
-        name: '&b&lSpawner Boost &c(Unavailable)'
+        name: '&b&lSpawner Boost &c(&c✘)'
         lore:
           - '&7'
           - '&bNext Level: &e2'
           - '&7'
-          - '&7Purchasing the spawner upgrade'
-          - '&7gives all spawners within your island'
-          - '&7increased spawn speed.'
+          - '&7Nâng cấp tốc độ tạo ra quái vật'
+          - '&7spawner trong đảo của bạn'
           - '&7'
           - '&bBoost: &fx2 Speed'
-          - '&bPrice: &f$500,000'
+          - '&bGiá: &f$500,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '2':
       has-next-level:
         sound:
@@ -349,38 +337,36 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: SPAWNER
-        name: '&b&lSpawner Boost &a(Available)'
+        name: '&b&lSpawner Boost &a(&A✔)'
         lore:
           - '&7'
           - '&bNext Level: &e3'
           - '&7'
-          - '&7Purchasing the spawner upgrade'
-          - '&7gives all spawners within your island'
-          - '&7increased spawn speed.'
+          - '&7Nâng cấp tốc độ tạo ra quái vật'
+          - '&7spawner trong đảo của bạn'
           - '&7'
           - '&bBoost: &fx3 Speed'
-          - '&bPrice: &f$1,000,000'
+          - '&bGiá: &f$1,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: SPAWNER
-        name: '&b&lSpawner Boost &c(Unavailable)'
+        name: '&b&lSpawner Boost &c(&c✘)'
         lore:
           - '&7'
           - '&bNext Level: &e3'
           - '&7'
-          - '&7Purchasing the spawner upgrade'
-          - '&7gives all spawners within your island'
-          - '&7increased spawn speed.'
+          - '&7Nâng cấp tốc độ tạo ra quái vật'
+          - '&7spawner trong đảo của bạn'
           - '&7'
           - '&bBoost: &fx3 Speed'
-          - '&bPrice: &f$1,000,000'
+          - '&bGiá: &f$1,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '3':
       has-next-level:
         sound:
@@ -388,59 +374,55 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: SPAWNER
-        name: '&b&lSpawner Boost &a(Available)'
+        name: '&b&lSpawner Boost &a(&A✔)'
         lore:
           - '&7'
           - '&bNext Level: &e4'
           - '&7'
-          - '&7Purchasing the spawner upgrade'
-          - '&7gives all spawners within your island'
-          - '&7increased spawn speed.'
+          - '&7Nâng cấp tốc độ tạo ra quái vật'
+          - '&7spawner trong đảo của bạn'
           - '&7'
           - '&bBoost: &fx4 Speed'
-          - '&bPrice: &f$2,500,000'
+          - '&bGiá: &f$2,500,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: SPAWNER
-        name: '&b&lSpawner Boost &c(Unavailable)'
+        name: '&b&lSpawner Boost &c(&c✘)'
         lore:
           - '&7'
           - '&bNext Level: &e4'
           - '&7'
-          - '&7Purchasing the spawner upgrade'
-          - '&7gives all spawners within your island'
-          - '&7increased spawn speed.'
+          - '&7Nâng cấp tốc độ tạo ra quái vật'
+          - '&7spawner trong đảo của bạn'
           - '&7'
           - '&bBoost: &fx4 Speed'
-          - '&bPrice: &f$2,500,000'
+          - '&bGiá: &f$2,500,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '4':
       has-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
-        type: SPAWNER
+        type: BARRIER
         name: '&c&lMAX LEVEL'
         lore:
-          - '&7You have reached the maxmimum'
-          - '&7level of the spawner rates!'
+          - '&7Bạn đã đạt max cấp độ'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
-        type: SPAWNER
+        type: BARRIER
         name: '&c&lMAX LEVEL'
         lore:
-          - '&7You have reached the maxmimum'
-          - '&7level of the spawner rates!'
+          - '&7Bạn đã đạt max cấp độ'
   mob-drops:
     item: '*'
     '1':
@@ -450,38 +432,36 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: ROTTEN_FLESH
-        name: '&4&lPremium Drops &a(Available)'
+        name: '&4&lPremium Drops &a(&A✔)'
         lore:
           - '&7'
           - '&4Next Level: &e2'
           - '&7'
-          - '&7Purchasing the drops upgrade'
-          - '&7gives all mobs within your island'
-          - '&7increased loot drops.'
+          - '&7Nâng cấp số lượng item rớt ra khi giết quái'
+          - '&7trong đảo của bạn'
           - '&7'
-          - '&4Amount: &fx2 Drops'
-          - '&4Price: &f$1,000,000'
+          - '&4Số Lương: &fx2 Drops'
+          - '&4Giá: &f$1,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: ROTTEN_FLESH
-        name: '&4&lPremium Drops &c(Unavailable)'
+        name: '&4&lPremium Drops &c(&c✘)'
         lore:
           - '&7'
           - '&4Next Level: &e2'
           - '&7'
-          - '&7Purchasing the drops upgrade'
-          - '&7gives all mobs within your island'
-          - '&7increased loot drops.'
+          - '&7Nâng cấp số lượng item rớt ra khi giết quái'
+          - '&7trong đảo của bạn'
           - '&7'
-          - '&4Amount: &fx2 Drops'
-          - '&4Price: &f$1,000,000'
+          - '&4Số Lương: &fx2 Drops'
+          - '&4Giá: &f$1,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '2':
       has-next-level:
         sound:
@@ -489,38 +469,36 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: ROTTEN_FLESH
-        name: '&4&lPremium Drops &a(Available)'
+        name: '&4&lPremium Drops &a(&A✔)'
         lore:
           - '&7'
           - '&4Next Level: &e3'
           - '&7'
-          - '&7Purchasing the drops upgrade'
-          - '&7gives all mobs within your island'
-          - '&7increased loot drops.'
+          - '&7Nâng cấp số lượng item rớt ra khi giết quái'
+          - '&7trong đảo của bạn'
           - '&7'
-          - '&4Amount: &fx3 Drops'
-          - '&4Price: &f$2,000,000'
+          - '&4Số Lương: &fx3 Drops'
+          - '&4Giá: &f$2,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: ROTTEN_FLESH
-        name: '&4&lPremium Drops &c(Unavailable)'
+        name: '&4&lPremium Drops &c(&c✘)'
         lore:
           - '&7'
           - '&4Next Level: &e3'
           - '&7'
-          - '&7Purchasing the drops upgrade'
-          - '&7gives all mobs within your island'
-          - '&7increased loot drops.'
+          - '&7Nâng cấp số lượng item rớt ra khi giết quái'
+          - '&7trong đảo của bạn'
           - '&7'
-          - '&4Amount: &fx3 Drops'
-          - '&4Price: &f$2,000,000'
+          - '&4Số Lương: &fx3 Drops'
+          - '&4Giá: &f$2,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '3':
       has-next-level:
         sound:
@@ -528,59 +506,55 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: ROTTEN_FLESH
-        name: '&4&lPremium Drops &a(Available)'
+        name: '&4&lPremium Drops &a(&A✔)'
         lore:
           - '&7'
           - '&4Next Level: &e4'
           - '&7'
-          - '&7Purchasing the drops upgrade'
-          - '&7gives all mobs within your island'
-          - '&7increased loot drops.'
+          - '&7Nâng cấp số lượng item rớt ra khi giết quái'
+          - '&7trong đảo của bạn'
           - '&7'
-          - '&4Amount: &fx5 Drops'
-          - '&4Price: &f$5,000,000'
+          - '&4Số Lương: &fx5 Drops'
+          - '&4Giá: &f$5,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: ROTTEN_FLESH
-        name: '&4&lPremium Drops &c(Unavailable)'
+        name: '&4&lPremium Drops &c(&c✘)'
         lore:
           - '&7'
           - '&4Next Level: &e4'
           - '&7'
-          - '&7Purchasing the drops upgrade'
-          - '&7gives all mobs within your island'
-          - '&7increased loot drops.'
+          - '&7Nâng cấp số lượng item rớt ra khi giết quái'
+          - '&7trong đảo của bạn'
           - '&7'
-          - '&4Amount: &fx5 Drops'
-          - '&4Price: &f$5,000,000'
+          - '&4Số Lương: &fx5 Drops'
+          - '&4Giá: &f$5,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '4':
       has-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
-        type: ROTTEN_FLESH
+        type: BARRIER
         name: '&c&lMAX LEVEL'
         lore:
-          - '&7You have reached the maxmimum'
-          - '&7level of the mob drops!'
+          - '&7Bạn đã đạt max cấp độ'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
-        type: ROTTEN_FLESH
+        type: BARRIER
         name: '&c&lMAX LEVEL'
         lore:
-          - '&7You have reached the maxmimum'
-          - '&7level of the mob drops!'
+          - '&7Bạn đã đạt max cấp độ'
   members-limit:
     item: '~'
     '1':
@@ -590,38 +564,34 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: PLAYER_HEAD
-        name: '&2&lMembers Size &a(Available)'
+        name: '&2&lMembers Size &a(&A✔)'
         lore:
           - '&7'
           - '&2Next Level: &e2'
           - '&7'
-          - '&7Purchasing the members upgrade'
-          - '&7will increase the maximum allowed'
-          - '&7members in your island.'
+          - '&7Nâng cấp số lượng thành viên trong đảo của bạn'
           - '&7'
-          - '&2Amount: &f8 Members'
-          - '&2Price: &f$100,000'
+          - '&2Số Lương: &f8 Members'
+          - '&2Giá: &f$100,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: PLAYER_HEAD
-        name: '&2&lMembers Size &c(Unavailable)'
+        name: '&2&lMembers Size &c(&c✘)'
         lore:
           - '&7'
           - '&2Next Level: &e2'
           - '&7'
-          - '&7Purchasing the members upgrade'
-          - '&7will increase the maximum allowed'
-          - '&7members in your island.'
+          - '&7Nâng cấp số lượng thành viên trong đảo của bạn'
           - '&7'
-          - '&2Amount: &f8 Members'
-          - '&2Price: &f$100,000'
+          - '&2Số Lương: &f8 Members'
+          - '&2Giá: &f$100,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '2':
       has-next-level:
         sound:
@@ -629,38 +599,34 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: PLAYER_HEAD
-        name: '&2&lMembers Size &a(Available)'
+        name: '&2&lMembers Size &a(&A✔)'
         lore:
           - '&7'
           - '&2Next Level: &e3'
           - '&7'
-          - '&7Purchasing the members upgrade'
-          - '&7will increase the maximum allowed'
-          - '&7members in your island.'
+          - '&7Nâng cấp số lượng thành viên trong đảo của bạn'
           - '&7'
-          - '&2Amount: &f16 Members'
-          - '&2Price: &f$300,000'
+          - '&2Số Lương: &f16 Members'
+          - '&2Giá: &f$300,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: PLAYER_HEAD
-        name: '&2&lMembers Size &c(Unavailable)'
+        name: '&2&lMembers Size &c(&c✘)'
         lore:
           - '&7'
           - '&2Next Level: &e3'
           - '&7'
-          - '&7Purchasing the members upgrade'
-          - '&7will increase the maximum allowed'
-          - '&7members in your island.'
+          - '&7Nâng cấp số lượng thành viên trong đảo của bạn'
           - '&7'
-          - '&2Amount: &f16 Members'
-          - '&2Price: &f$300,000'
+          - '&2Số Lương: &f16 Members'
+          - '&2Giá: &f$300,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '3':
       has-next-level:
         sound:
@@ -668,59 +634,53 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: PLAYER_HEAD
-        name: '&2&lMembers Size &a(Available)'
+        name: '&2&lMembers Size &a(&A✔)'
         lore:
           - '&7'
           - '&2Next Level: &e4'
           - '&7'
-          - '&7Purchasing the members upgrade'
-          - '&7will increase the maximum allowed'
-          - '&7members in your island.'
+          - '&7Nâng cấp số lượng thành viên trong đảo của bạn'
           - '&7'
-          - '&2Amount: &f32 Members'
-          - '&2Price: &f$500,000'
+          - '&2Số Lương: &f32 Members'
+          - '&2Giá: &f$500,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: PLAYER_HEAD
-        name: '&2&lMembers Size &c(Unavailable)'
+        name: '&2&lMembers Size &c(&c✘)'
         lore:
           - '&7'
           - '&2Next Level: &e4'
           - '&7'
-          - '&7Purchasing the members upgrade'
-          - '&7will increase the maximum allowed'
-          - '&7members in your island.'
+          - '&7Nâng cấp số lượng thành viên trong đảo của bạn'
           - '&7'
-          - '&2Amount: &f32 Members'
-          - '&2Price: &f$500,000'
+          - '&2Số Lương: &f32 Members'
+          - '&2Giá: &f$500,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '4':
       has-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
-        type: PLAYER_HEAD
+        type: BARRIER
         name: '&c&lMAX LEVEL'
         lore:
-          - '&7You have reached the maxmimum'
-          - '&7level of the members limit!'
+          - '&7Bạn đã đạt max cấp độ'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
-        type: PLAYER_HEAD
+        type: BARRIER
         name: '&c&lMAX LEVEL'
         lore:
-          - '&7You have reached the maxmimum'
-          - '&7level of the members limit!'
+          - '&7Bạn đã đạt max cấp độ'
   border-size:
     item: '!'
     '1':
@@ -729,117 +689,105 @@ upgrades:
           type: ENTITY_EXPERIENCE_ORB_PICKUP
           volume: 0.2
           pitch: 0.2
-        type: BARRIER
-        name: '&9&lBorder Size &a(Available)'
+        type: BLACK_STAINED_GLASS
+        name: '&9&lBorder Size &a(&A✔)'
         lore:
           - '&7'
           - '&9Next Level: &e2'
           - '&7'
-          - '&7Purchasing the border upgrade'
-          - '&7will increase the radius'
-          - '&7of your island.'
+          - '&7Nâng cấp bán kính của đảo bạn'
           - '&7'
-          - '&9Radius: &f50 Blocks'
-          - '&9Price: &f$30,000'
+          - '&9Bán kính: &f50 Blocks'
+          - '&9Giá: &f$30,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
-        type: BARRIER
-        name: '&9&lBorder Size &c(Unavailable)'
+        type: BLACK_STAINED_GLASS
+        name: '&9&lBorder Size &c(&c✘)'
         lore:
           - '&7'
           - '&9Next Level: &e2'
           - '&7'
-          - '&7Purchasing the border upgrade'
-          - '&7will increase the radius'
-          - '&7of your island.'
+          - '&7Nâng cấp bán kính của đảo bạn'
           - '&7'
-          - '&9Radius: &f50 Blocks'
-          - '&9Price: &f$30,000'
+          - '&9Bán kính: &f50 Blocks'
+          - '&9Giá: &f$30,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '2':
       has-next-level:
         sound:
           type: ENTITY_EXPERIENCE_ORB_PICKUP
           volume: 0.2
           pitch: 0.2
-        type: BARRIER
-        name: '&9&lBorder Size &a(Available)'
+        type: BLACK_STAINED_GLASS
+        name: '&9&lBorder Size &a(&A✔)'
         lore:
           - '&7'
           - '&9Next Level: &e3'
           - '&7'
-          - '&7Purchasing the border upgrade'
-          - '&7will increase the radius'
-          - '&7of your island.'
+          - '&7Nâng cấp bán kính của đảo bạn'
           - '&7'
-          - '&9Radius: &f75 Blocks'
-          - '&9Price: &f$80,000'
+          - '&9Bán kính: &f75 Blocks'
+          - '&9Giá: &f$80,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
-        type: BARRIER
-        name: '&9&lBorder Size &c(Unavailable)'
+        type: BLACK_STAINED_GLASS
+        name: '&9&lBorder Size &c(&c✘)'
         lore:
           - '&7'
           - '&9Next Level: &e3'
           - '&7'
-          - '&7Purchasing the border upgrade'
-          - '&7will increase the radius'
-          - '&7of your island.'
+          - '&7Nâng cấp bán kính của đảo bạn'
           - '&7'
-          - '&9Radius: &f75 Blocks'
-          - '&9Price: &f$80,000'
+          - '&9Bán kính: &f75 Blocks'
+          - '&9Giá: &f$80,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
     '3':
       has-next-level:
         sound:
           type: ENTITY_EXPERIENCE_ORB_PICKUP
           volume: 0.2
           pitch: 0.2
-        type: BARRIER
-        name: '&9&lBorder Size &a(Available)'
+        type: BLACK_STAINED_GLASS
+        name: '&9&lBorder Size &a(&A✔)'
         lore:
           - '&7'
           - '&9Next Level: &e4'
           - '&7'
-          - '&7Purchasing the border upgrade'
-          - '&7will increase the radius'
-          - '&7of your island.'
+          - '&7Nâng cấp bán kính của đảo bạn'
           - '&7'
-          - '&9Radius: &f125 Blocks'
-          - '&9Price: &f$150,000'
+          - '&9Bán kính: &f125 Blocks'
+          - '&9Giá: &f$150,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
-        type: BARRIER
-        name: '&9&lBorder Size &c(Unavailable)'
+        type: BLACK_STAINED_GLASS
+        name: '&9&lBorder Size &c(&c✘)'
         lore:
           - '&7'
           - '&9Next Level: &e4'
           - '&7'
-          - '&7Purchasing the border upgrade'
-          - '&7will increase the radius'
-          - '&7of your island.'
+          - '&7Nâng cấp bán kính của đảo bạn'
           - '&7'
-          - '&9Radius: &f125 Blocks'
-          - '&9Price: &f$150,000'
+          - '&9Bán kính: &f125 Blocks'
+          - '&9Giá: &f$150,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
     '4':
       has-next-level:
         sound:
@@ -849,8 +797,7 @@ upgrades:
         type: BARRIER
         name: '&c&lMAX LEVEL'
         lore:
-          - '&7You have reached the maxmimum'
-          - '&7level of the border size!'
+          - '&7Bạn đã đạt max cấp độ'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
@@ -859,8 +806,7 @@ upgrades:
         type: BARRIER
         name: '&c&lMAX LEVEL'
         lore:
-          - '&7You have reached the maxmimum'
-          - '&7level of the border size!'
+          - '&7Bạn đã đạt max cấp độ'
   generator-rates:
     item: '+'
     '1':
@@ -870,46 +816,42 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: COBBLESTONE
-        name: '&3&lGenerator Boost &a(Available)'
+        name: '&3&lGenerator Boost &a(&A✔)'
         lore:
           - '&7'
           - '&3Next Level: &e2'
           - '&7'
-          - '&7Purchasing the generator upgrade'
-          - '&7will increase rates of ores from'
-          - '&7cobblestone generators in your island.'
+          - '&7Nâng cấp tỉ lệ tạo ra quặng trong đảo của bạn'
           - '&7'
-          - '&3Rates:'
+          - '&3Tỉ lệ:'
           - ' &7 - &f92% Stone'
           - ' &7 - &f5% Coal Ore'
           - ' &7 - &f3% Redstone Ore'
           - '&7'
-          - '&3Price: &f$25,000'
+          - '&3Giá: &f$25,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: COBBLESTONE
-        name: '&3&lGenerator Boost &c(Unavailable)'
+        name: '&3&lGenerator Boost &c(&c✘)'
         lore:
           - '&7'
           - '&3Next Level: &e2'
           - '&7'
-          - '&7Purchasing the generator upgrade'
-          - '&7will increase rates of ores from'
-          - '&7cobblestone generators in your island.'
+          - '&7Nâng cấp tỉ lệ tạo ra quặng trong đảo của bạn'
           - '&7'
-          - '&3Rates:'
+          - '&3Tỉ lệ:'
           - ' &7 - &f92% Stone'
           - ' &7 - &f5% Coal Ore'
           - ' &7 - &f3% Redstone Ore'
           - '&7'
-          - '&3Price: &f$25,000'
+          - '&3Giá: &f$25,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '2':
       has-next-level:
         sound:
@@ -917,50 +859,46 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: COBBLESTONE
-        name: '&3&lGenerator Boost &a(Available)'
+        name: '&3&lGenerator Boost &a(&A✔)'
         lore:
           - '&7'
           - '&3Next Level: &e3'
           - '&7'
-          - '&7Purchasing the generator upgrade'
-          - '&7will increase rates of ores from'
-          - '&7cobblestone generators in your island.'
+          - '&7Nâng cấp tỉ lệ tạo ra quặng trong đảo của bạn'
           - '&7'
-          - '&3Rates:'
+          - '&3Tỉ lệ:'
           - ' &7 - &f80% Stone'
           - ' &7 - &f8% Coal Ore'
           - ' &7 - &f6% Redstone Ore'
           - ' &7 - &f4% Lapis Ore'
           - ' &7 - &f2% Iron Ore'
           - '&7'
-          - '&3Price: &f$75,000'
+          - '&3Giá: &f$75,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: COBBLESTONE
-        name: '&3&lGenerator Boost &c(Unavailable)'
+        name: '&3&lGenerator Boost &c(&c✘)'
         lore:
           - '&7'
           - '&3Next Level: &e3'
           - '&7'
-          - '&7Purchasing the generator upgrade'
-          - '&7will increase rates of ores from'
-          - '&7cobblestone generators in your island.'
+          - '&7Nâng cấp tỉ lệ tạo ra quặng trong đảo của bạn'
           - '&7'
-          - '&3Rates:'
+          - '&3Tỉ lệ:'
           - ' &7 - &f80% Stone'
           - ' &7 - &f8% Coal Ore'
           - ' &7 - &f6% Redstone Ore'
           - ' &7 - &f4% Lapis Ore'
           - ' &7 - &f2% Iron Ore'
           - '&7'
-          - '&3Price: &f$75,000'
+          - '&3Giá: &f$75,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '3':
       has-next-level:
         sound:
@@ -968,16 +906,14 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: COBBLESTONE
-        name: '&3&lGenerator Boost &a(Available)'
+        name: '&3&lGenerator Boost &a(&A✔)'
         lore:
           - '&7'
           - '&3Next Level: &e4'
           - '&7'
-          - '&7Purchasing the generator upgrade'
-          - '&7will increase rates of ores from'
-          - '&7cobblestone generators in your island.'
+          - '&7Nâng cấp tỉ lệ tạo ra quặng trong đảo của bạn'
           - '&7'
-          - '&3Rates:'
+          - '&3Tỉ lệ:'
           - ' &7 - &f65% Stone'
           - ' &7 - &f10% Coal Ore'
           - ' &7 - &f9% Redstone Ore'
@@ -987,25 +923,23 @@ upgrades:
           - ' &7 - &f2% Diamond Ore'
           - ' &7 - &f1% Emerald Ore'
           - '&7'
-          - '&3Price: &f$150,000'
+          - '&3Giá: &f$150,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: COBBLESTONE
-        name: '&3&lGenerator Boost &c(Unavailable)'
+        name: '&3&lGenerator Boost &c(&c✘)'
         lore:
           - '&7'
           - '&3Next Level: &e4'
           - '&7'
-          - '&7Purchasing the generator upgrade'
-          - '&7will increase rates of ores from'
-          - '&7cobblestone generators in your island.'
+          - '&7Nâng cấp tỉ lệ tạo ra quặng trong đảo của bạn'
           - '&7'
-          - '&3Rates:'
+          - '&3Tỉ lệ:'
           - ' &7 - &f65% Stone'
           - ' &7 - &f10% Coal Ore'
           - ' &7 - &f9% Redstone Ore'
@@ -1015,30 +949,28 @@ upgrades:
           - ' &7 - &f2% Diamond Ore'
           - ' &7 - &f1% Emerald Ore'
           - '&7'
-          - '&3Price: &f$150,000'
+          - '&3Giá: &f$150,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '4':
       has-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
-        type: COBBLESTONE
+        type: BARRIER
         name: '&c&lMAX LEVEL'
         lore:
-          - '&7You have reached the maxmimum'
-          - '&7level of the generator rates!'
+          - '&7Bạn đã đạt max cấp độ'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
-        type: COBBLESTONE
+        type: BARRIER
         name: '&c&lMAX LEVEL'
         lore:
-          - '&7You have reached the maxmimum'
-          - '&7level of the generator rates!'
+          - '&7Bạn đã đạt max cấp độ'
   minecarts-limit:
     item: '&'
     '1':
@@ -1048,38 +980,34 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: MINECART
-        name: '&d&lMinecart Increase &a(Available)'
+        name: '&d&lMinecart Increase &a(&A✔)'
         lore:
           - '&7'
           - '&dNext Level: &e2'
           - '&7'
-          - '&7Purchasing the minecart upgrade'
-          - '&7will increase your island''s'
-          - '&7max minecarts limit.'
+          - '&7Nâng cấp số lượng thành viên trong đảo của bạn'
           - '&7'
-          - '&dAmount: &f8x Minecarts'
-          - '&dPrice: &f$1,000,000'
+          - '&dSố Lương: &f8x Minecarts'
+          - '&dGiá: &f$1,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: MINECART
-        name: '&d&lHopper Increase &c(Unavailable)'
+        name: '&d&lHopper Increase &c(&c✘)'
         lore:
           - '&7'
           - '&dNext Level: &e2'
           - '&7'
-          - '&7Purchasing the minecart upgrade'
-          - '&7will increase your island''s'
-          - '&7max minecarts limit.'
+          - '&7Nâng cấp số lượng thành viên trong đảo của bạn'
           - '&7'
-          - '&dAmount: &f8x Minecarts'
-          - '&dPrice: &f$1,000,000'
+          - '&dSố Lương: &f8x Minecarts'
+          - '&dGiá: &f$1,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '2':
       has-next-level:
         sound:
@@ -1087,38 +1015,34 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: MINECART
-        name: '&d&lHopper Increase &a(Available)'
+        name: '&d&lHopper Increase &a(&A✔)'
         lore:
           - '&7'
           - '&dNext Level: &e3'
           - '&7'
-          - '&7Purchasing the minecart upgrade'
-          - '&7will increase your island''s'
-          - '&7max minecarts limit.'
+          - '&7Nâng cấp số lượng thành viên trong đảo của bạn'
           - '&7'
-          - '&dAmount: &f16x Minecarts'
-          - '&dPrice: &f$3,000,000'
+          - '&dSố Lương: &f16x Minecarts'
+          - '&dGiá: &f$3,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: MINECART
-        name: '&d&lHopper Increase &c(Unavailable)'
+        name: '&d&lHopper Increase &c(&c✘)'
         lore:
           - '&7'
           - '&dNext Level: &e3'
           - '&7'
-          - '&7Purchasing the minecart upgrade'
-          - '&7will increase your island''s'
-          - '&7max minecarts limit.'
+          - '&7Nâng cấp số lượng thành viên trong đảo của bạn'
           - '&7'
-          - '&dAmount: &f16x Minecarts'
-          - '&dPrice: &f$3,000,000'
+          - '&dSố Lương: &f16x Minecarts'
+          - '&dGiá: &f$3,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '3':
       has-next-level:
         sound:
@@ -1126,56 +1050,50 @@ upgrades:
           volume: 0.2
           pitch: 0.2
         type: MINECART
-        name: '&d&lHopper Increase &a(Available)'
+        name: '&d&lHopper Increase &a(&A✔)'
         lore:
           - '&7'
           - '&dNext Level: &e4'
           - '&7'
-          - '&7Purchasing the minecart upgrade'
-          - '&7will increase your island''s'
-          - '&7max minecarts limit.'
+          - '&7Nâng cấp số lượng thành viên trong đảo của bạn'
           - '&7'
-          - '&dAmount: &f32x Minecarts'
-          - '&dPrice: &f$9,000,000'
+          - '&dSố Lương: &f32x Minecarts'
+          - '&dGiá: &f$9,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&aLeft-click để nâng cấp.'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
         type: MINECART
-        name: '&d&lHopper Increase &c(Unavailable)'
+        name: '&d&lHopper Increase &c(&c✘)'
         lore:
           - '&7'
           - '&dNext Level: &e4'
           - '&7'
-          - '&7Purchasing the minecart upgrade'
-          - '&7will increase your island''s'
-          - '&7max minecarts limit.'
+          - '&7Nâng cấp số lượng thành viên trong đảo của bạn'
           - '&7'
-          - '&dAmount: &f32x Minecarts'
-          - '&dPrice: &f$9,000,000'
+          - '&dSố Lương: &f32x Minecarts'
+          - '&dGiá: &f$9,000,000'
           - '&7'
-          - '&aLeft-click to purchase upgrade.'
+          - '&cLeft-click để nâng cấp.'
     '4':
       has-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
-        type: MINECART
+        type: BARRIER
         name: '&c&lMAX LEVEL'
         lore:
-          - '&7You have reached the maxmimum'
-          - '&7level of the minecarts limit!'
+          - '&7Bạn đã đạt max cấp độ'
       no-next-level:
         sound:
           type: BLOCK_ANVIL_PLACE
           volume: 0.2
           pitch: 0.2
-        type: MINECART
+        type: BARRIER
         name: '&c&lMAX LEVEL'
         lore:
-          - '&7You have reached the maxmimum'
-          - '&7level of the minecarts limit!'
+          - '&7Bạn đã đạt max cấp độ'

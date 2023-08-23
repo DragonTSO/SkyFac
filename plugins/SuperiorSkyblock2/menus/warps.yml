@@ -25,8 +25,8 @@ next-page: '^'
 edit-lore:
   - '&f '
   - '&f '
-  - '&7&o(( &f&oLeft-Click &7&oto warp to the location. ))'
-  - '&7&o(( &f&oRight-Click &7&oto edit warp. ))'
+  - '&7&o(( &f&oLeft-Click &7&ođể di chuyển đến vị trí. ))'
+  - '&7&o(( &f&oRight-Click &7&ođể chỉnh sửa warp ))'
 
 items:
   '@':

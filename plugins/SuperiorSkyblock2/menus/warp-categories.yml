@@ -25,8 +25,8 @@ next-page: '^'
 edit-lore:
   - '&f '
   - '&f '
-  - '&7&o(( &f&oLeft-Click &7&oto see island warps. ))'
-  - '&7&o(( &f&oRight-Click &7&oto edit the category. ))'
+  - '&7&o(( &f&oLeft-Click &7&ođể xem các warps trogn đảo ))'
+  - '&7&o(( &f&oRight-Click &7&ođể cài đặt warp ))'
 
 items:
   '@':

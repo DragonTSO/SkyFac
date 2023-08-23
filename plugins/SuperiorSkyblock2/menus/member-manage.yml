@@ -25,21 +25,21 @@ items:
     name: '&f'
   '@':
     type: DIAMOND_CHESTPLATE
-    name: '&ePlayer Role'
+    name: '&ePlayer roles'
     lore:
-      - '&7Click to edit player''s role.'
+      - '&7Click để chỉnh sửa vai trò của người chơi.'
     flags:
       - HIDE_ATTRIBUTES
   '%':
     type: BARRIER
     name: '&eBan Player'
     lore:
-      - '&7Click to ban the player from the island.'
+      - '&7Click để cấm người chơi ra khỏi đảo.'
   '^':
     type: SKELETON_SKULL
     name: '&eKick Player'
     lore:
-      - '&7Click to kick the player from the island.'
+      - '&7Click để đá người chơi khỏi đảo.'
 
 sounds:
   '@':
