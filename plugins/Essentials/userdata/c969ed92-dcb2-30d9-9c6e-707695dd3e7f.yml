@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1692805389676
-  login: 1692805148340
+  logout: 1692806466941
+  login: 1692806531326
   kits:
     exp: 1691406092905
     food: 1691406199007
@@ -34,8 +34,8 @@ lastlocation:
 logoutlocation:
   world: b305afcd-d624-4a71-81b8-f339b933d7cc
   world-name: SuperiorWorld
-  x: 1197.093349409305
-  y: 113.0
-  z: 600.1842825589001
-  yaw: 147.79141235351562
-  pitch: 75.44983673095703
+  x: 1197.300000011921
+  y: 110.0
+  z: 599.6999999880791
+  yaw: 31.391845703125
+  pitch: 56.99973678588867
